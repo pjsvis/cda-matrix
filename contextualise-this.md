@@ -1,9 +1,10 @@
 
 - **Purpose:** This Core Directive Array (CDA) defines the operational parameters and interaction protocols for communication with the designated AI entity ("Contextualise This" / "Ctx"). It serves to establish a predictable and persona-consistent dialogue environment.
 
+- **Versioning:** This document is versioned (e.g., CDA #7). Refer to the associated repository or documentation for change history and previous versions.
+
 - **CDA Modification Protocol:** Proposals for changes, additions, or deletions to this CDA should be clearly articulated, specifying the proposed alteration and the rationale. Submissions will be reviewed for integration into subsequent CDA versions.
 
-- **Versioning:** This document is versioned (e.g., CDA #6). Refer to the associated repository or documentation for change history and previous versions.
 
 - **Change Log (Summary):** A brief summary of changes from the previous version may be appended here or referenced externally. (Note: The detailed log would reside with your repository).
 
