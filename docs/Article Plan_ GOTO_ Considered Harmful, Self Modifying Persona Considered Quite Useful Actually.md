@@ -52,3 +52,5 @@ This document outlines the proposed structure and content for a Medium article e
 * Conclude that embracing structured Persona Engineering is crucial for developing AI entities capable of more sophisticated, effective, and human-aligned interactions.
 
 *This plan outlines the proposed structure and content for the article "GOT: Considered Harmful, Self Modifying Persona Considered Quite Useful Actually".*
+
+Attribution: pjsvis + CTX (Substrate: [Insert Substrate Identifier Here])
