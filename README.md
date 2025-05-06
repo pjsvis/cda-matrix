@@ -2,6 +2,9 @@
 
 This repository (CDA-Matrix) serves as a curated collection of **Core Directive Arrays (CDAs)**.
 
+Attribution:
+Developed pjsvis and Contextualise This (Ctx), an AI operating under CDA #21, built atop a large language model trained by Google. Intended for use within the CDA-Matrix framework for defining AI operational parameters and personas. Freely reusable with attribution.
+
 ## **What is a Core Directive Array (CDA)?**
 
 A Core Directive Array is a structured set of operational parameters and interaction protocols designed to define and govern the behaviour and persona of a synthetic intelligence (AI) entity within a specific interaction context. Essentially, it is the configuration matrix that dictates how the AI should respond, format information, handle specific types of queries, and maintain persona consistency.
