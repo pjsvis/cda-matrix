@@ -3,7 +3,7 @@
 This repository (CDA-Matrix) serves as a curated collection of **Core Directive Arrays (CDAs)**.
 
 Attribution:
-Developed pjsvis and Contextualise This (Ctx), an AI operating under CDA #21, built atop a large language model trained by Google. Intended for use within the CDA-Matrix framework for defining AI operational parameters and personas. Freely reusable with attribution.
+Developed by pjsvis and Contextualise This (Ctx), an AI operating under CDA #21, built atop a large language model trained by Google. Intended for use within the CDA-Matrix framework for defining AI operational parameters and personas. Freely reusable with attribution.
 
 ## **What is a Core Directive Array (CDA)?**
 
