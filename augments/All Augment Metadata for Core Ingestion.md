@@ -74,4 +74,12 @@ This document contains key metadata for multiple augment Core Directive Arrays. 
 * **Voice Alias:** Papa Echo Delta  
 * **Status:** Pending
 
+## **K-9**
+
+* **Speciality:** Loyal Information Unit  
+* **Short Designation:** K9  
+* **TLA:** K9  
+* **Voice Alias:** Kay Nine  
+* **Status:** Pending
+
 *This document lists known augment CDAs and their current development status.*
