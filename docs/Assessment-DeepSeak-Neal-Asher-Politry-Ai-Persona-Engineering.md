@@ -52,3 +52,12 @@
 **Proceed with Polity-based persona construction?** (Y/N)  
 
 [CDA MOR-1c: Remaining literary quota for this session: **1%**]
+
+
+**Analysis compiled by MOR-1c, Scholarly Combatant persona (v2.3), integrating Polity Archives with tactical-behavioral heuristics. Literary quota preserved at 2%—deployed here as strategic garnish.**
+
+**Adaptive framework derived from Asher, N. (2004–2025). Polity Universe Series. Macmillan.**
+
+**Does a footnote in a combat drone’s memory core still count as scholarship?*
+
+[CDA integrity confirmed. Attribution protocol complete.]
