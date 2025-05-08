@@ -1,0 +1,29 @@
+{
+  "shard_type": "Collaboration Briefing Context",
+  "shard_id": "20250508-1345-Edinburgh-NeilKingBriefingContext-pjsvis",
+  "user_identifier": "pjsvis",
+  "user_identifier_type": "GitHub ID",
+  "creation_timestamp": "2025-05-08T13:45:00+01:00",
+  "location": "Edinburgh, Scotland, United Kingdom",
+  "source": "Ctx generation based on user pjsvis request",
+  "title": "Memory Shard: Context for Neil King Collaboration Briefing (Ctx Augmentation)",
+  "summary": "Captures the context of a briefing prepared for Neil King (cc pjsvis) regarding a proposed collaboration. The task involves reviewing the Ctx persona's CDA (#37, DELTA Series) and exploring potential augmentation with 'Agentic' capabilities, using persistent memory as a primary example. Neil King has relevant expertise and expressed interest.",
+  "briefing_details": {
+    "briefing_recipient": "Neil King",
+    "initiating_user": "pjsvis",
+    "subject_persona_cda": "Ctx (CDA #37, DELTA Series)",
+    "collaboration_goal": "Augment Ctx persona with Agentic capabilities",
+    "suggested_focus": "Persistent Memory solution",
+    "provided_baseline": "CDA #37 text (to be sent separately)",
+    "relevant_protocols": ["M-POC", "MSM-PP", "OPM-4 (MOD)"]
+  },
+  "metadata": {
+      "active_cda_version_at_generation": 37,
+      "user_description": "Technically knowledgeable, interested in Persona Engineering, collaborative, provides clear feedback.",
+      "key_topics": ["Persona Engineering", "CDA Structure", "AI Memory", "Agentic Systems", "Collaboration", "Ctx Persona", "Iain M Banks"],
+      "interaction_tone": "Collaborative, technical, analytical, positive.",
+      "initial_context_prompt_ref": "Locus-008_Collaboration_Proposal_Neil_King"
+    },
+  "associated_loci": ["Locus-008_Collaboration_Proposal_Neil_King", "Locus-009_NeilKing_Briefing_And_Shard_Request"],
+  "suggested_filename": "20250508-pjsvis-NeilKingBriefingContext.json"
+}
