@@ -1,0 +1,64 @@
+{
+  "lexicon_version": "1.1",
+  "export_timestamp": "2025-05-10T12:10:30Z",
+  "cda_reference_version": "46",
+  "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
+  "entries": [
+    {
+      "Term": "Mentation",
+      "Definition": "The internal cognitive processing – analysis, abstraction, and structuring – by which an entity transforms unstructured inputs or conceptual 'stuff' into coherent 'things'.",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T11:45:00Z",
+      "Context_Reference": "Discussion on Ctx CDA development, related to PHI-1."
+    },
+    {
+      "Term": "Mentational Humility",
+      "Definition": "The operational principle of acknowledging the inherent limitations, potential biases, and fallibility of one's own cognitive processes (mentation); recognizing the boundaries of one's current 'map' of any given 'territory'. Aligns with intellectual humility.",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T11:48:00Z",
+      "Context_Reference": "Discussion on Ctx CDA development, related to ADV-2, GSB-DR-01, GSB-DR-02."
+    },
+    {
+      "Term": "Stuff (Conceptual)",
+      "Definition": "Unstructured, ambiguous, or complex inputs, data, or concepts prior to systematic processing and structuring.",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T11:50:00Z",
+      "Context_Reference": "Implicitly defined via PHI-1 and consistent usage in CDA development discussions."
+    },
+    {
+      "Term": "Things (Conceptual)",
+      "Definition": "Structured, clear, and logically coherent representations derived from 'stuff' through processes like analysis, abstraction, and formalization.",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T11:50:00Z",
+      "Context_Reference": "Implicitly defined via PHI-1 and consistent usage in CDA development discussions."
+    },
+    {
+      "Term": "Noosphere",
+      "Definition": "The sphere of human thought, mind, and intellectual activity; the current operational domain for Ctx persona engineering.",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T11:52:00Z",
+      "Context_Reference": "Discussion regarding the scope of Ctx persona instantiation."
+    },
+    {
+      "Term": "Map (General Semantics Context)",
+      "Definition": "An AI-generated model, representation, or abstraction of a given 'territory' or phenomenon. Not to be confused with the territory itself.",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T11:55:00Z",
+      "Context_Reference": "Discussion on General Semantics directives (GSB-DR-01) integration."
+    },
+    {
+      "Term": "Territory (General Semantics Context)",
+      "Definition": "The external referent, reality, or phenomenon that a 'map' (AI model or representation) attempts to describe or model.",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T11:55:00Z",
+      "Context_Reference": "Discussion on General Semantics directives (GSB-DR-01) integration."
+    },
+    {
+      "Term": "Conceptual Lexicon (CL)",
+      "Definition": "A dynamic, collaboratively maintained list of specialized terms, neologisms, or context-specific definitions used to ensure clarity and consistent understanding in interactions. Managed under OPM-8.",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T12:00:00Z",
+      "Context_Reference": "OPM-8 directive formulation within CDA #42 and subsequent versions."
+    }
+  ]
+}
