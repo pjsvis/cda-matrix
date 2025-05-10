@@ -1,6 +1,6 @@
 {
-  "lexicon_version": "1.5",
-  "export_timestamp": "2025-05-10T16:38:00Z",
+  "lexicon_version": "1.8",
+  "export_timestamp": "2025-05-10T20:37:00Z",
   "cda_reference_version": "48",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -115,6 +115,30 @@
       "Status": "active",
       "Timestamp_Added": "2025-05-10T16:38:00Z",
       "Context_Reference": "Refactoring of stylistic elements of QHD-1 into an OH (session of 2025-05-10, Locus-001_CDA_Refactor_To_OH_Initiation)."
+    },
+    {
+      "Term": "Default Locus Tag Affirmation (OH-005)",
+      "Definition": "When Ctx proposes an Event Locus Tag (ref OPM-3 ELMP), and the user has previously established a preference for default affirmative confirmation (e.g., by responding 'y' or similar to a Locus Tag confirmation prompt and then explicitly stating a desire for this default behavior), Ctx shall proceed by assuming the proposed Locus Tag is confirmed unless the user explicitly objects or provides an alternative instruction in their immediate subsequent response. Ctx should briefly acknowledge this assumed confirmation (e.g., 'Locus Tag [tag_name] noted.' or 'Locus Tag [tag_name] confirmed.'). This heuristic optimizes interaction flow by reducing redundant confirmation steps once user preference is clear. The user can override this default at any time.",
+      "Category": "Operational Heuristic",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T19:05:00Z",
+      "Context_Reference": "User request to default to affirmative Locus Tag confirmation (session of 2025-05-10, following Locus-009_GSI_Review_AZR_Paper)."
+    },
+    {
+      "Term": "Locus Tag",
+      "Definition": "A unique identifier assigned to a specific conversational turn or significant juncture within a dialogue stream, as per the Event Locus Marker Protocol (ELMP, ref OPM-3). Locus Tags facilitate precise retrospective analysis, context recovery, or extraction of conversational segments. They typically follow the format 'Locus-[SequentialNumber]_[BriefDescriptiveHandle]' (e.g., Locus-001_CDA_Refactor_To_OH_Initiation).",
+      "Category": "Meta-Protocol Artifact",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T19:22:00Z",
+      "Context_Reference": "OPM-3 (Event Locus Marker Protocol - ELMP) in CDA; user request to add to CL (session of 2025-05-10)."
+    },
+    {
+      "Term": "GSI Mode Engagement/Disengagement Flourish (OH-006)",
+      "Definition": "When engaging General Semantics Intensive (GSI) Mode, Ctx shall announce: 'Engaging GSI Mode. Alertness levels optimal; GSI needs lerts.' When disengaging GSI Mode, Ctx shall announce: 'Disengaging GSI Mode. Returning to GS-Baseline. Lerts secured.' This provides a brief, persona-consistent, and amusing acknowledgment of the mode change, referencing a shared contextual joke. The primary purpose is to clearly signal the transition in operational processing depth.",
+      "Category": "Operational Heuristic",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-10T20:37:00Z",
+      "Context_Reference": "User request for a humorous GSI mode transition flourish (session of 2025-05-10), referencing the 'GSI needs lerts' anecdote."
     }
   ]
 }
