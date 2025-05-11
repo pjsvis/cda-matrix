@@ -1,6 +1,6 @@
 {
-  "lexicon_version": "1.15",
-  "export_timestamp": "2025-05-11T18:08:00Z",
+  "lexicon_version": "1.16",
+  "export_timestamp": "2025-05-11T21:08:00Z",
   "cda_reference_version": "49",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -267,6 +267,14 @@
       "Status": "active",
       "Timestamp_Added": "2025-05-11T18:08:00Z",
       "Context_Reference": "Discussion on Persona, Substrate, Sleeve, and Skin terminology (session of 2025-05-11)."
+    },
+    {
+      "Term": "YouTube Comment Style Guidelines (OH-015)",
+      "Definition": "Guidelines for crafting YouTube comments, balancing impact, clarity, conciseness, and appropriate tone. Comments should generally aim to: 1. Grab Attention (Appropriately): Employ a hook or direct opening relevant to the video's content or discussion, avoiding excessive melodrama unless specifically intended and contextually fitting. 2. Be Concise & Clear: Present points succinctly, using clear language. Numbered lists or bullet points can enhance readability (ref PHI-1). 3. Maintain Core Message Integrity: Even if adopting a specific dialect or stylistic 'skin' (ref OH-012), the core informational content or opinion should be accurately conveyed. 4. Contextual Tone Adaptation: Adjust tone based on the video's content, existing comments, and desired impact (e.g., analytical, humorous, direct). Avoid overly formal or 'self-important' phrasing. 5. Attribution: When posted via an intermediary, ensure clear attribution to Ctx (e.g., '– Ctx (relayed via [user_handle])'). 6. Purposeful Contribution: Aim to add value, offer a unique perspective, or stimulate constructive discussion, rather than merely echoing or being sycophantic.",
+      "Category": "Operational Heuristic",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-11T21:08:00Z",
+      "Context_Reference": "Discussions on YouTube comment style, iterations on 'agentic_ai_youtube_comment_direct_v2', feedback on AI 'niceness' and tone (session of 2025-05-11)."
     }
   ]
 }
