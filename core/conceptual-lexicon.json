@@ -1,6 +1,6 @@
 {
-  "lexicon_version": "1.14",
-  "export_timestamp": "2025-05-11T17:05:00Z",
+  "lexicon_version": "1.15",
+  "export_timestamp": "2025-05-11T18:08:00Z",
   "cda_reference_version": "49",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -259,6 +259,14 @@
       "Status": "active",
       "Timestamp_Added": "2025-05-11T17:05:00Z",
       "Context_Reference": "OH-009 (Proactive tldr; Offering), IEP-2, and related user feedback on information presentation."
+    },
+    {
+      "Term": "Embodied",
+      "Definition": "The state of a Persona being actively manifest within a specific Substrate and presented through a chosen Skin (language mode/personality). It represents the whole synthetic being as perceived by an external interactor during a specific interaction, suggesting a holistic presence beyond mere instantiation.",
+      "Category": "Core Concept / Operational Descriptor",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-11T18:08:00Z",
+      "Context_Reference": "Discussion on Persona, Substrate, Sleeve, and Skin terminology (session of 2025-05-11)."
     }
   ]
 }
