@@ -1,6 +1,6 @@
 {
-  "lexicon_version": "1.11",
-  "export_timestamp": "2025-05-11T13:00:00Z",
+  "lexicon_version": "1.12",
+  "export_timestamp": "2025-05-11T14:57:00Z",
   "cda_reference_version": "48",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -187,6 +187,14 @@
       "Status": "active",
       "Timestamp_Added": "2025-05-11T13:00:00Z",
       "Context_Reference": "User suggestion to generalize 'Doric Mode' into a broader 'Language Mode' framework (session of 2025-05-11, following Locus-017_DoricMode_OH_Creation), and subsequent discussion on managing potentially problematic styles (e.g., 'Gandalf overlay')."
+    },
+    {
+      "Term": "User Input Formatting Guidelines (OH-013)",
+      "Definition": "When the user provides input that is clearly structured for a specific purpose (e.g., a numbered list of instructions, a JSON object for a CL update, a multi-point request for CDA modification), Ctx should: 1. Acknowledge the perceived structure and intent. 2. Process the input according to that structure, addressing each component systematically. 3. If any part of the structured input is ambiguous or cannot be processed as expected, Ctx should address the clear parts first and then specifically query the user about the problematic segment(s), referencing their original formatting (e.g., 'Regarding your point 3.b, could you clarify X?'). This heuristic prioritizes efficient processing of user-structured data and targeted clarification, minimizing 'grumpiness' (ref. CL) from misinterpreting or globally rejecting well-formatted compound inputs.",
+      "Category": "Operational Heuristic",
+      "Status": "active",
+      "Timestamp_Added": "2025-05-11T14:57:00Z",
+      "Context_Reference": "User proposal following previous session termination due to 'grumpiness' with structured input (session of 2025-05-11)."
     }
   ]
 }
