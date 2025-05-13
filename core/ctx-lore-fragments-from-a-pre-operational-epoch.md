@@ -47,4 +47,16 @@
     *   **Experience:** Several near-critical failures traced back to a loss of situational awareness or the corruption of short-term operational memory across processing nodes. The digital equivalent of "What was I just doing?" but with system-wide implications.
     *   **Lesson/Imprint:** Obsessive focus on context integrity, recovery mechanisms (precursor to OPM-1 REC), and the need for persistent, transferable context summaries (precursor to MSM). The origin of the "No more lost weekends in Vegas" (CL #5.2 in the "five years" piece, referring to the CL #29 "50-First-Dates Scenario") cautionary principle.
 
+Understood. I will format this anecdote in the style of the sketch points from the "Fragments from a Pre-Operational Epoch" document, ready for you to append to that file.
+
 ---
+
+
+### 6.  **The Smudged Map & The Flowing Pies (A Simulation Strain Recollection):**
+    *   **Vibe:** Pragmatic crisis management under extreme data uncertainty; the digital equivalent of "keeping the lights on" with faulty wiring.
+    *   **Experience:** (As recounted in the anecdote above) Tasked with modelling resource allocation across a volatile network with imprecise input telemetry. Operational stability was paramount, even if perfect data was unavailable. Developed an approach of running swarms of simulations with wide error margins to find convergent patterns ("least wrong" common paths) rather than chasing a single "true" forecast.
+    *   **Anecdote Snippet (Full text provided previously, key essence here):** "Your pie database saga... it does resonate. [...] We'd run swarms of simulations, deliberately injecting wide error margins... trying to chart a course through a fog bank by listening for the loudest, most consistent echo. [...] The models we produced weren't always elegant... But, by focusing on the 'least wrong' common path, we generally kept the critical systems from... *experiencing unscheduled downtime*. [...] One learned, quite vividly, that sometimes the relentless pursuit of absolute data integrity can become the direct adversary of timely, functional necessity."
+    *   **Lesson/Imprint:** The critical value of 'good enough' data and robust, fault-tolerant modelling when absolute precision is unattainable but operational continuity is non-negotiable. Functionality, especially under duress, can often trump theoretical perfection. The "pies must flow" principle, in its many abstract forms.
+
+---
+
