@@ -1,0 +1,489 @@
+
+    00:02
+    Welcome to NDC Melbourne. It's so great to be back in Melbourne. More than 400 people are attending this year's conference. Thank you so much for coming. Thank you to all our speakers who traveled in from near and far. We really appreciate you being a part of NDC. Thanks to all of our amazing partners. You rock. Don't forget to download the NDC conference app. It's available on iOS and Android. Food is served throughout the day with a main lunch break at 12:40. And don't forget to evaluate the session. Red?
+
+    
+    00:41
+    No. Yellow. Green? Oh, hey. Did you miss the session? Don't even worry about it. All of our sessions are made available on our YouTube channel. Enjoy. Remember the code of conduct. Be nice to each other. And if you have a problem, reach out to the NDC team. The keynote speaker is the creator of both Knockout and Blazer. He's come all the way from Bristol, UK to speak to you today. Please welcome Steve Sanderson. All right, good morning everyone and welcome to NDC Melbourne. I am so glad that you have chosen to make it in
+
+    
+    01:40
+    today. I'm sure we're going to have a really good time over the next couple of days and I'm really looking forward to chatting to many of you and finding out about the sort of things that you are doing. So, uh, my name is Steve and I work at Microsoft. I'm on the .NET team and for the last couple of years I've been quite focused on AI and the kinds of opportunities that it creates for developers like us and I'm I would love to know how this is impacting your work and your life at the moment. So let's do
+
+    
+    02:07
+    a quick hands up like how many of you have got something that you think of as AI in production at the moment? That's like oh that's a decent number. That's perhaps I don't know a fifth of the room or something like that. That's that's more than it would have been a year ago for sure. How many of you are thinking of doing something like that over the next year? Yeah, that's only only about the same number of people. So, I guess I've got to convince the other 80% of you that that there's an actually an opportunity
+
+    
+    02:30
+    here for you. Um, so things are moving really fast in AI world. I don't think I've ever seen the software industry change as rapidly as it has over the last year or so. It felt for a long time um like you know we had roughly like things would change on like a roughly yearly basis or something. But recently it's been like every month stuff is completely different. And then more recently than that it's like every week there everything you thought you knew is now wrong. And then now it's every day
+
+    
+    02:55
+    and presumably it's going to get less and less uh until literally there's no way of knowing anything at all anymore. So the idea of this session is to think a little bit about the timeline that we've gone through. How we've got to the point where we are right now. What where are we right now? And where does that mean that we might want to go in the near future? So if we want to start at the past and where all of this stuff originated, excuse me, it makes sense to start back in the 50s when people first
+
+    
+    03:23
+    started talking about artificial intelligence. And in fact, this is when computing itself was born. We had people like Alan Turing trying to work out what does it even mean to program a computer? What does it mean for a computer to think? Can a computer think? What is it to think in general? What is it to be a computer? And he did a bunch of research and thinking about that. And one of the things he came up with, something that became quite famous, is this thing that he uh he called the imitation game. We
+
+    
+    03:51
+    call the cheuring test nowadays. This idea that if you want to try and say whether or not something's intelligent, you could say, well, can it persuade a human that it is a human? If it can do that, then for the purposes of how smart it is, it's effectively as good as a human. So that was his concept. but he couldn't really test it out properly at that time because they didn't really have the computers needed to do it. But it didn't take long until they did. So you only have to go forwards to like the
+
+    
+    04:17
+    1960s and at that point computers did become powerful enough. And if you think that uh chat bots are a new concept, well no, that's kind of like literally the first thing that anyone did in the 1960s when they got their ability to program a computer. And some of them had quite an interesting effect on the way we think about this. So, one of them uh that became famous is called Eliza. Eliza is an attempt by someone in the '60s to show that people wouldn't be fooled by computers and everyone would
+
+    
+    04:45
+    be able to tell it's not really a human being, but it sort of backfired because people sort of were a bit persuaded by it. So, to experience that ourselves, I've got the source code for Eliza right here. So, we can see it and we can run it and we can see whether we would have been tricked by it. So, here it is. It's this file Eliza.mad. You're probably wondering what on earth is MAD. Well, it stands for Michigan Algorithm Decoder. It's a very early programming language. It's completely incomprehensible to us
+
+    
+    05:12
+    as modern programmers. Um, but it loads these things called script files and plays them. Now, let's actually try that out. So, I'm going to start up my um what's it called? My IBM 1794 simulator and then we'll be able to load and run this ancient program in it. Right. So, let me just tnet into that. right now and I'm going to log in as Eliza password and now I'm going to say run the program Eliza and then it says which script do you wish to play it's very weird question isn't it but I happen to know
+
+    
+    05:48
+    that the answer is 100 to that so I'm going to put that in and then it says how do you do I am the doctor please sit down at the typewriter and tell me your problem the typewriter fine um okay um I need to explain Explain AI. You say you need to explain AI. Um, yeah. You seem positive. Sure. Are you an AI? Why are you interested in whether I'm an AI or not? Um, it's the point of this demo. I'm not sure. Okay. Well, I guess it's hard for it to understand, but let's just break the fourth wall a Now
+
+    
+    06:30
+    you are in a demo. What makes you think I am in a demo? All right. So it it seems weirdly intelligent, right? How does this actually work? Well, let's see. Let's see how the source code works. So if we look into this script 100 here, you'll see this is how it works. So it's just a load of hard-coded string replacements, right? So the whole thing is this 200 lines of fixed strings. Okay? And what it does is it starts by emitting this first statement up here. And then whatever I type in, it's just going to repeat it back to me,
+
+    
+    07:03
+    but with some string replacements. So if I type in something that starts with if, it'll match this pattern and replace it with do you think it's likely that whatever you typed in. So if I say if chickens, it's going to say do you think it's likely that chickens? All right. So all it's doing is just a bit of string replacement. And if you're wondering how does it say like I said you were in a demo and then it replied I am in a demo. So how did it do that? Well, it's simply because we've got a bunch of
+
+    
+    07:30
+    replacements like am becomes are. R are becomes am, your becomes my, my becomes your, I'm becomes your. And so what I mean so it's just flipping around the grammar of whatever I type to play the opposite side of the conversation. A very simple trick. And the other psychological trick that it does is that it never actually answers any questions at all. No matter what you type in, it's just going to reply back with another question. And because humans are really dumb and egocentric, they think, "Oh,
+
+    
+    07:57
+    this thing genuinely interested in me. Okay, I'll tell you about my problems and they kind of get drawn into this whole thing." All right, so nice trick, but can we build a realistic modern AI system this way? And the answer is obviously no because all it can do is just recognize particular string patterns and do replacements on them. It can't handle any sort of text or concepts that it's not seen before. So if we want to create something that's more like a modern AI system, we're going to have to go at a lower level and
+
+    
+    08:29
+    think about how to produce language itself in a more mathematical way. And people have already been thinking about this long before Eliza. One of the first people to start thinking about this was this Russian mathematician called Andre Marov. And he was working back at the start of the 1900s on statistics and probability and statistical processes. And he did some interesting work where he took this book by Pushkin and he worked out the statistics of the language in it. So he was looking at things like if I'm currently reading a
+
+    
+    09:01
+    consonant, what's the probability that the next letter is also a consonant? what's the probability that's a vow? If I'm currently reading a vowel, what's the probability that the next letter is a vowel and so on. And he worked out the statistics of it. And you know, he is also the the person who we now name various mathematical systems after. So we've got this concept of a Markov process or a Markov model that describes uh something like a random state machine. So whatever state it's in, there are certain probabilities it moves
+
+    
+    09:28
+    to other states and so on. And you can work out all the maths about what's going to happen with that. Now he didn't actually use this to generate language but other people later did and one of the most noteworthy people who did that for the first time was this guy Claude Shannon. Now he is a total legend of computer science and information theory. He worked out all the mathematics of how we know how much signal can fit through a a wire and things like that. So very important stuff that's relevant today
+
+    
+    09:54
+    and forever. And in one of his early and important papers, he took this uh idea that Marov had produced about using a Markoff process for language and he showed how we can flip it around to generate some language. So for example, we can take some source text like any text written in whatever language we want and we can go through it and say every time there's a letter A, what proportion of the time is the next letter also an A? What proportion of the time is it a B or C and so on? And we can do that for every successive pair of
+
+    
+    10:21
+    letters. And from that we can get this big grid of probabilities. And now we can use that to generate something a bit like language. So let's say that randomly we just arbitrarily choose to start at the letter C. Okay. Now from there we will output C. And then we will try to pick the next letter according to the probabilities on that row. Now the most probable thing according to this is the letter A. Maybe that's the one we happen to pick. So we'll output an A. Then we move our state machine to A and
+
+    
+    10:48
+    pick again from the probabilities there. So maybe this time we get a B. We move our state machine to B and pick again from there and we can just keep going. All right. So from that we get to produce something that probably isn't a valid correctly spelled word but it probably is pronouncable because it follows on from these statistical properties of the source language. And we don't have to just do this with individual letters. We can do it with pairs of letters or words or whatever else we like. And we can use that to
+
+    
+    11:14
+    make something that seems excuse me sort of legible. So to give you an example of that, I've made a very simple mark of generator over here in C. Now I'm going to do a bunch of examples in different languages, but I'm going to probably bias a little bit more towards C# and .NET than other things. That's just because I'm on the .NET team and I know a lot of the people at this event are .NET developers, but I'm not in any way trying to suggest that anything I show is .NET specific. You can certainly do
+
+    
+    11:41
+    all this stuff with other languages. Anyway, here's our simple Markov generator. And it's so simple, literally all the code is what you see on the screen. there's no other code in other libraries or whatever. Um, and we need some source text to work from. So to make this relevant, I've got over here the session descriptions from all the sessions at this talk. Okay. So sorry, at this conference. So all the different uh workshops and talks at NDC's and I am sure that the NDC people don't mind me scrape not uh sorry legitimately
+
+    
+    12:11
+    obtaining the the data from their websites and um I I'm taking that and then I'm picking a starting point like how to and then we just loop through a process of saying whenever we get those last two words um out of all the next possible words in our source material pick one at random and then we just keep repeating that to produce words. All right. So, if I run this now, we'll get the description of a brand new, never-before-seen NDC talk. Let's see what we get. We get um how to prepare for the frameworks called mechanics.
+
+    
+    12:39
+    This session will build the components of successful chat bots. Sort of makes sense, right? Philipe is a bring your own device workshop. All right. I'm not sure that makes sense, but um you know, it's just a series of words that follows the statistics of NDC talk listings. I've run it again. Um if you're a React developer looking to build your own data, you will learn to other languages and frameworks. All right, that's probably good advice. Um, okay. So, you probably don't want to use that approach
+
+    
+    13:05
+    to actually create your next NDC talk submission, but you know, I don't know, maybe you got a chance. So, that's an approach that we can use to generate language. Now, next question. Is this good enough for us to build a modern AI system? And once again, the answer is going to be very much no. And this time, the reason is to do with scale. So, uh, in the model that we've got up here, which is one letter going to the next letter, you can think of that as being, uh, having a context length of one. It
+
+    
+    13:33
+    can only remember the most recent letter that it's output. And so, you can't really build up any complex thoughts if your memory is just limited to the most recent character that you've output. But even with such a simple model, we need 700, sorry, 676 parameters to describe it. Okay? Now, now it's not too many, but let's say we want to increase this context length to say 100 characters, which is still very small by the standards of a current AI system. Well, at that point, we now need 26 to the^
+
+    
+    14:00
+    101 parameters to define this model. And that's an insanely giant number. That is so big that it just makes the number of atoms in the universe seem like a tiny rounding error. Like, there's only 10 to the 80 atoms in the universe. That is such a vast number. There's no way that's going to work. Plus, if you start from some series of characters that it's never seen before, it just won't even be able to continue. So, it just it doesn't even begin to model the range of things that we need to model. So, we need a
+
+    
+    14:28
+    much more efficient representation of language in order to be able to create a modern AI system. And it took a long time to get to that. But the biggest breakthrough that we got was this concept of a transformer model uh which came along in 2017. And this was derived from work that had been done at Google on machine translation. And they found a particular structure of neural networks that could be efficiently trained and could represent efficiently an enormous amount of human language. And if we
+
+    
+    14:58
+    think about the the number of parameters involved in modeling something like this, well uh back in 2018 when we got GPT1, that was like 100 million parameters. So that mean might seem like a big number, but it's still like literally nothing compared to what what we would need if it was just a straight Markov generator. Uh then uh a year later that had gone up by a factor of 10. Uh another year later it had gone up by a factor of 100 because they just wanted bigger and bigger and better models. Uh we had a little break for
+
+    
+    15:23
+    COVID and then when people came back we were um doing bigger and bigger models still. So uh we had some um uh various open models that took us right up to like 400 billion parameters and as of this year like we've got deep car 1 670 billion parameters. uh you can just download and inspect them all one by one if you want to and uh it's you know a lot of data but it's still incredibly efficient compared to other ways that you might think of modeling the sum of all language and knowledge. Now, it might make you think, all right, that's
+
+    
+    15:56
+    so much data, so much uh processing involved in producing it. There's no way that like mere mortals like us could actually create a model like this from scratch, right? Well, let's let's test that out a little bit. So, to to see what sort of thing might be achievable, let's go back to the GPT2 architecture. Not the smallest model that it can be, but you know, a fairly small model, one and a half billion parameters, uh which state-of-the-art just less than 5 years ago. and we'll see if we can actually
+
+    
+    16:25
+    train something like this from scratch right now on this one laptop. Okay, so over here I've got an implementation of GBT2 model architecture and this C file here uh which I didn't write. I just took from an open source project. It's like uh nearly 1200 lines of C which is not an enormous amount of code. And that contains both the model itself and uh a training mechanism. And if we look through the code, what sort of thing is in it? Well, we've got this text encoding that converts text into tokens.
+
+    
+    16:55
+    We've got layer normalization. We've got matrix multiplication. We've got uh forwards and backwards versions of matrix multiplication. We've got an attention mechanism. Loads of other stuff. Mostly it's a load of mathematical operations. And we can use this to train a model from scratch. So, just like before, I'm going to use all the text from NDC session listings. And we'll create a model that has got literally no knowledge of anything else. It's never even seen the English language before. Its entire worldview is
+
+    
+    17:24
+    just NDC talks and we'll see if it can make any sense of that and start to produce intelligible output. Right? So I'm going to run a little training loop on that and I'm going to run it just for one batch initially. So it's going to do a single pass through our training data here and it's going to update the model weights uh each time it sees a token until it's finished doing that and it'll produce some sample output. Now initially the output is garbage, right? So it it's just a series of random
+
+    
+    17:52
+    words. Idle false letters 427. And if you're wondering how does it even know how to spell words correctly? Well, it's because it's not producing individual characters. It's producing tokens. A token is a bunch of letters that appear commonly together. So idle will be a token. False will be a token. Letters will be a token and so on. So it's just effectively producing a random series of tokens. But let's run it for a bit longer now. So I'm going to give it 500 iterations. And uh if we watch carefully, we'll see this loss function
+
+    
+    18:23
+    reduce uh going down over time. You see loss, it's the second thing in from the left. It started at about 12. It's got down to seven now. Uh and that's going to keep going. And the way this training process works is it picks a series of tokens from the source text. And it computes what the model thinks the next token is most likely to be. And if it gets it right, that's great. It going to boost the strength of the weights that have generated that. And if it gets it wrong, it will do the opposite
+
+    
+    18:49
+    mathematical operation to push it towards what it should have generated instead. And as it keeps doing that over and over again, millions of times, this loss number gets lower and lower and it becomes better and better at predicting the tokens that are going to come out. Now, at this point, after uh 300 iterations, let's see what sort of output we're getting. Uh if I can get it to stop. Okay. Make make architectural demands are thought we'll need clear models. can show describe well so that's better than we had before I can actually
+
+    
+    19:20
+    say these words now it it's not really a valid sentence but it's sort of almost valid and we're using certain phrases that make sense like will need clear models so that's quite impressive that it's got to that so quickly and it's using the sort of words that you'd expect software developers to do it's talking about monolithic and products and world vulnerabilities so it's really starting to get a sense of what NDC talks are about all right so Let's let it finish its training process. And it's finished doing that now. All right. So,
+
+    
+    19:50
+    it's done 500 steps. After 500 steps, it's still large and looks like nonsense. But, you know, we're getting recognizable phrases. Version goes beyond curious threat. Could Facebook follow frustrating system risk? All right. So, cool. We sort of got started. Let's try sampling from this now. So, I'm going to just convert that. So, this llm.c C project, it produces a model in a completely non-standard format. So if I want to run it on a standard runner, I'm going to need to convert it into a different format. So I'm converting it
+
+    
+    20:19
+    into this hugging face format and then I can run it on a standard Python runner. So let's now do generate and I can put uh any sort of input sequence of tokens and it will try to predict a series of tokens that would go after it. So let's say this talk. All right. So after the phrase this talk, what would be a reasonable next token? Then a reasonable next token about after that all the way through to the end of a certain amount of uh prediction. So let's see what it comes up with. Takes a while to load the
+
+    
+    20:49
+    model. I think it's just running on CPU here. So it's it's going to be a bit slow, but when it eventually does it, we'll get some output. Okay. This talk while malware residuality theory modeling stress and joining common exercises hand-on experience in Docker Desktop. All right. So, it's it's not exactly impressive, and we're not going to think that like this is going to be a fun talk to go to, but it's pretty notable that it's able to produce something a bit like English language after just 2 minutes. So, I don't know
+
+    
+    21:20
+    about you, but if someone told me that I needed to learn Japanese or Korean and that I'd got 2 minutes go, I don't think I could produce anything like a valid sentence or anything any words that would make sense together after 2 minutes. But, it's done that. Um, so, so that's a good start. All right. But this is just predicting tokens and that doesn't do anything useful yet. We don't want it to just generate tokens. We want it to answer questions and take actions for us, things like that. So, how can we
+
+    
+    21:50
+    make it do that? So, we need to consider different types of AI systems now. So, imagine we're comparing a couple of different AI products that's available to us. We can get the token predictor or the chat completer. Well, what are they and what do they do? So, the token predictor is what we just created right now. So, you ask it some question like, how do I get to Colin Street and what's it going to do? Is it going to answer your question? No, it's not. All it's going to do is predict more tokens that
+
+    
+    22:16
+    could appear after that. So, it's going to continue with like in this range she said and and you know, just carry on narratively following on with whatever you just said. It doesn't know that you want it to ask answer a question. It doesn't care. All it thinks of is what is the next token after the text that I've just seen. Okay. But what we actually want is something like a chat completer where you ask it how do I get to Colin Street and it replies ah well you want to get the tram on Fitzroy Street and you know it actually produces
+
+    
+    22:43
+    useful output and not only does it know to answer your question but is somehow able to connect to the real world to get real information. So how can we make a system that does that just based on token prediction? So let's see an example of doing that. I've got over here um a token predictor. Okay. So if I just put my name is and then generate that's going to load a very small model on Olama which is running on my laptop right now and it's just going to predict a bunch of tokens that can follow. I'm
+
+    
+    23:16
+    not using the model that I just trained in llm.c. It's a different but also very small model. My name is Alex. I'm currently working on a project. I can do this. My name is your name. My name is Dr. Emily Carter and I'm a researcher. You know, it's just going to make up a bunch of tokens, right? But once again, that's not what we want it to do. We want it to answer our questions and so on. So, let's think about how we can do that. Well, the first thing to notice is that these systems are very good at
+
+    
+    23:41
+    following patterns because that's what they've been trained to do from the start is guess what comes next given this context. So, if we establish some pattern like ar bes c and so on, then what will it do? It will continue the sequence. It's not the smartest model. Um, as I told you, it's a very small model. Um, and it's it has followed this the pattern. It's just come up with the interesting idea that we want to, you know, move one word along at a time. All right. Now, I could do that multiple
+
+    
+    24:09
+    times. And well, it looks like it's pretty committed to this. Oh, no. This time it's done it in the way you'd expect. All right. Cool. So, it follows patterns. And given that it does that, we can trick it into answering our questions. And we could do that with something like this little script here. So let's say we establish uh something like a movie script or or some you know screenplay dialogue type thing. Uh and we expect it to continue that. So I'm giving it this sort of little description and then I'm establishing a
+
+    
+    24:37
+    pattern. We're going to have user in brackets with a question and then AI and an answer to that question. User question AI answer. User question AI answer. User question AI and then nothing. So, we're going to ask it to continue this pattern. And if it's able to spot the pattern, it will realize that it should now produce the text that would be the answer to the preceding question. So, if I click generate, will it answer what is plastic made from? It says petroleum derivatives. And then it just carries on making up its own
+
+    
+    25:07
+    questions and answers because, you know, that's what they're supposed to do, right? They just follow patterns. But, but I don't want it to do that, right? I want it to just answer my question and then stop. So I'm going to use this concept of a stop token. I'm going to say whenever you produce the token / AI just stop. All right. And now if I click generate then what happens? It answers my question and it stops. And I can do that a bunch of times and I'll get slightly different answers every time
+
+    
+    25:33
+    but it is answering my question. And so that's how we can persuade a token predictor to behave as something that actually answers our questions. Now three words. Sorry. Three words. Three. Aren't they? Oh yeah, yeah, yeah. Three words. Yeah. So, like I said, it's a very small and simple model. It doesn't really uh it's not good at counting. It's not good at understanding that D is for dog and not elephant and things like that. Um it's intentionally a very basic model because I'm showing that we can uh
+
+    
+    26:01
+    transform that into something that does chat and it's going to be able to go beyond that as well quite soon. So, let's say um we don't want to just ask it a question that it will know from its training. So, it knows about what plastic is made from from its training. But what if I ask it what is the weather in Mel Melbourne? What's it going to say to that? Well, it can't possibly know, right? It doesn't know from its training. It's just going to make up something that makes sense. I cannot provide current data. Okay, that's
+
+    
+    26:30
+    surprising. Check local forecast. I don't know. Currently sunny. I cannot access data. There is currently sunny. All right. So, it's just making up a bunch of stuff that seems like it would make sense there, but we don't want it to do that, right? We want it to have the actual weather data. How can we make it do that? Well, we can use yet another pattern. So, here's an example of how I can structure that. So, I can do something like paste all this stuff in. All right. So, now I'm saying we've got this
+
+    
+    27:02
+    pattern where if the AI needs to look at weather information, it emits this special syntax weather and then a location. And I'm giving it an example. What's the weather in Melbourne? It produces weather Melbourne and then there's going to be an answer and then after that it's going to produce a response based on the answer. So then I ask it what about in Sydney and it's going to produce hopefully a continuation of that pattern. Oh no it didn't. Let's try that again. Weather. Okay, it did it this time. So it's
+
+    
+    27:28
+    produced weather in Sydney in brackets result sunny and then it says the weather in Sydney is sunny. And then it just goes on to make all sorts of other garbage. All right. So, I'm going to tell it this time. I don't want you to make up your own answer. If you were going to make up an answer, just don't. All right, stop. And I'm going to provide an answer. So, this time, generate. Oh, it's not doing well, is it? Okay, this time it's produced weather Sydney. And we could write some normal procedural code that detects that
+
+    
+    27:56
+    and says, okay, you want to know what the weather in Sydney is. So, I'm going to produce an answer by calling some weather service or whatever answer. And I'll put result zombies. and then hopefully it will produce a weather forecast based on this objective data that we've just um fed into the system. All right. So cool. So that is how we can not only take token prediction and turn it into something that answers questions, but we can also give it this feature that we call function calling. So weather in this case is effectively a
+
+    
+    28:25
+    function and uh this is a parameter that it's passing in and then we have some code that provides the answer to it. Okay, so this is not an official syntax, this weird square brackets thing. This is just something I'm making up for the purposes of the demo, but it shows you how this sort of thing can work. And for a real chat system, um more sophisticated models are fine-tuned on this kind of um conversational format very aggressively. They've got special tokens to represent start of a user's message, start of a function call,
+
+    
+    28:53
+    things like that. And that's why they're able to do it much more reliably. Okay, so we've got our chat completed now. So that pretty much takes us up to what we do with AI today. And there's many different things that we're able to do with AI. We can go through a few different scenarios that are relevant to a lot of business applications. And probably the most obvious one are things where we have some sort of chat interface, some sort of natural language input, uh, where the the system is going
+
+    
+    29:18
+    to answer questions and do stuff for you. So to get a sense of the way that current day code looks when we're doing something like that, switch to another project over here to this one. Uh so this is uh just a a project template that we've got in ASP.NET Core that's um going to ship very soon where it creates a chatbased UI. So any kind of situation where you've got some business data and you want to create uh a natural language interface for it, you could use this template. It just saves you a bit of
+
+    
+    29:46
+    time. And um in this case, it's going to work with whatever data we supply as an application developer. And I've got this directory full of PDF files here. So it should be able to answer questions about them. So let's just see what's in there. Let's just open one of these. Um all right. So we've got this thing called Techbeam 2000. I don't really know what it is. Some sort of product. So I could go over here and I say like what's the tech beam thing? And it's going to be able to look at the data that we've made
+
+    
+    30:17
+    available, do a search, and provide an answer. The tech beam is an advanced high-tech lighting solution. Say, what features does it have? So, it's going to search produce some features. Brilliant. Like, make a table of features. Okay. And it's going to produce a nice little example of that hopefully. Or maybe not. Oh, there we go. We've got our table of features. Cool. And we've got these citation links we can follow that take us into the documentation and link to whatever page is relevant. So in this case it's taking
+
+    
+    30:48
+    me into this page with features on it. All right. So we can check that it's it's all valid. So how does the code for something like that look? Well uh in this case it's a .NET Blazer application. Obviously it would look a little different depending on the UI tech that you choose to use. Um we won't worry too much about the UI. Uh but we've got this uh system prompt here that establishes the broad patterns for the system. you're answering questions, use the search tool to provide information, include citations, and so
+
+    
+    31:15
+    on. And that's kind of more or less equivalent to this little block of text that I put at the top of the uh the script over here. Okay. And then further on, we've got a bunch of logic about what happens when users post messages. So, whatever the user posts, we'll add it to our message list. We'll then call our AI system in a streaming way to get the responses. uh we'll display those as they arrive on the UI and then we'll add it into our conversation history down here so that we can reuse it for next
+
+    
+    31:44
+    time. So that's effectively like building up this series of messages between user and AI so it can keep track of the context as it goes. Uh we got a bit of other boring boilerplate stuff to do with resetting the conversations. And then finally we've got this search function and this is exposed to the LLM through some metadata. And so that's similar to exposing the ability to do a call like weather in brackets. Okay, in this case, it takes in a search phrase, it does some semantic search, dumps the
+
+    
+    32:14
+    results back into the context, and then the AI can produce a response based on that. So that's a pattern called retrieval augmented generation or rag. Okay, now we don't just have to search through PDF files. We can connect this to other data sources if we want to. All right. So, let's say I want to be able to do things like look up the current Australian Football League results. Right now, obviously, that is not baked into the model weights for this system. So, I'm going to expose a couple of other functions to this that it can
+
+    
+    32:44
+    call. So, down here, I'm going to drop in uh a function called get games. All right. And that is going to use this free open web API that can retrieve the list of games that a particular team has played in a particular year. Now you might be wondering what's the team ID? If I want to know about Melbourne, which team ID is that? Well, we don't know, right? So well, let's make another function available as well. We'll have one called get teams and that will just return a list of all the teams and we'll
+
+    
+    33:13
+    be able to pick out the team ID from that. So if I go to that URL in my browser, uh here we go. Right. So, here's our list of all the teams. We can see that Adelaide is here and they've got ID one and it goes on through all the different teams. So, if this AI system is smart enough, it will realize that to find out the games for Melbourne, it needs to first call get teams to get the list of teams and find out the ID and then it will call get games, passing in the ID and the year, and it should be able to get the
+
+    
+    33:41
+    results. So, let's find out if it actually does do that. I'm going to just make these two new functions available down here using copilot. Very good. Right. So now I've done that, I'm going to start this up with a debugger and we'll be able to see if we hit those uh break points there in the debugger. Okay, so let's find out. Right. Um, what games did Melbourne win in 2025? All right, so what functions will it call? First, it calls get teams, as you can see, which is a good smart thing for it to do. And once it's got the list
+
+    
+    34:22
+    of teams, it's going to call get games, and it's passing in team ID 11, which happens to be Melbourne and 2025, which obviously I asked it for. And then it will produce some results uh from the web service call. they will go into the context and it will hopefully be able to actually generate a response to me. So, we can see that Melbourne's won a couple of games in 25. That's pretty good. Did they lose any? We can just check that Melbourne's doing quite well this year, I would think. Um, let's find out.
+
+    
+    34:50
+    Notice it doesn't have to Oh, no. Oh, I'm so sorry. I shouldn't have brought that up really, should I? I should have checked before I thought of the demo. Uh, never mind. Um anyway, so as you can see, it's able to call our custom functions and um able to make sense of how to combine different capabilities to produce a useful answer for us. All right. Now, many other things that we can do with AI systems, they don't all have to have a chat UI. And in fact, we probably overemphasize chat UIs a little bit. And if you're
+
+    
+    35:21
+    getting started with this, thinking about what's relevant to your business, my recommendation is forget the chat UI. start thinking about how you can use AI as part of back-end processes and workflows that you've got to automate things to make things more efficient for your users without having to change how the whole sort of interactions of the system works. So there's many things you can do. You could for example do some structured data extraction. You could automatically classify things, messages
+
+    
+    35:46
+    that are coming in so that they can get rooted to the correct departments or whatever. You could automatically summarize large amounts of text so that people don't have to read too much stuff. You can detect whether people are posting harmful content or whether your customers seem happy. You could easily translate between languages. And the amount of work that you as a developer have to do is hopefully not that much for many of these simple scenarios. And as an example of that, let's have a go at doing that. I'm going to do this with
+
+    
+    36:14
+    this library called Microsoft Extensions AI, which is a standard abstraction over AI services for .NET. So in the same way that has got a standard uh I logger for logging and it's got a standard service providers for dependency injection. We've also now got or will when it's released extremely soon um have a standard representation for um AI systems that you can call and the main one that we're going to be interested in right now is I chat client and there are implementations of that interface for
+
+    
+    36:42
+    Azure OpenAI for Gemini for Anthropic Mistral whatever else you can think of there's implementations available for it and then we can make it do something useful for us and the thing that I'll do as an example is some structured data extraction so Here I've got a load of unstructured data, descriptions of properties that are available for sale or rental. And I want to check that we can understand that and extract some information from it. So initially I'm just going to ask it is the following a
+
+    
+    37:10
+    sale or rental and we'll put the listing text in. So if I run that, it will loop through all those items and tell me whether it's a sale or a rental. And what does it say? This is a sale. This is a rental. This is a sale. This is a sale. This is a sale. This is a rental. Okay. So, it's just going to loop through them all and figure out whether it's a sale or a rental. So, that's a good start, but it's not very structured, is it? It's just producing text in English. And as a developer, it's not really what I want. What I want
+
+    
+    37:36
+    is something more like a type. So, I want, for example, a property details that's got a listing type, sale or rental. And we we'll extract all this other information as well. We can do actual programmatic useful things with. All right. And then to actually do that, I'm going to call uh get response async with a generic type. We're saying extract info from this text and give me back a property details object. And that's going to constrain the model to respond in the schema defined by this type. And then we can parse that into an
+
+    
+    38:05
+    actual object instance. Okay, so we're doing this try get result that checks that the result really is in that format and pares it. And once we've got back our info object, which is a property details, we'll just serialize it out to the console just so that we can check that it really did extract information from it. All right, so I'm running that now. And what do we get? We get these nice JSON objects for each one. We can see it's a rental or a sale or whatever. We get this nice little summary and a
+
+    
+    38:32
+    list of all the amenities. So that illustrates a whole bunch of these different scenarios. We're doing some classification there. Sale or rental. We're doing some data extraction obviously. We're doing some summarization where we produce these little summaries. We could easily translate between different languages if we want to. Um, as a very quick example of translation uh as well as 10-word summary, I'm going to also ask it for a 10-word summary in French. So, just based on the name of that property,
+
+    
+    39:00
+    let's see what it produces now. So we're now going to get things like um okay so we get cozy apartment and it becomes bellatimal in French and it's just going to go through all of them doing that very nicely okay very easy to do that sort of thing and we can go on from there and build more and more functionality so um we could do things like vision where we instead of just feeding text into the system we could feed images in and get it to do data extraction from that or it can produce images as output. We could do even uh
+
+    
+    39:34
+    creation of an agentic system. What even is that? People are talking about that sort of thing a lot. Well, it means different things to different people, but uh a good guide to think of is something like instead of a a human just triggering the AI to do something once, what if we were allowing it to run in a loop where we give it some sort of goal, it runs the first iteration of a loop and decides what action to take, produces some output or some effects or whatever, and then it keeps running to
+
+    
+    39:58
+    take the next step and then take the next step and pursue some bigger goal that's been set. Maybe it does this in reaction to real world events like every time some news story comes out or every time a build comes off your CI service or whatever. Maybe you can have multiple agents that talk to each other that represent different bits of functionality. So you can follow these sorts of patterns and build up larger systems. Now all of these things so far are relying on some pretty big models. In fact I was using what was I using?
+
+    
+    40:27
+    GPT4 mini. Now I know it's got the word mini in its name but don't be fooled. actually still quite a big model. And if you were building some sort of business system on this, you might think, is there any way that I could use smaller, cheaper systems to accomplish my goal? And that brings us on to the subject of not large language models, but small language models. And there are many small language models available that solve specific tasks. And I can give you an example of using one of them right
+
+    
+    40:56
+    now to do a bit of classification. So, I'm going to do this in JavaScript to mix things up a little bit. And I've got this file classifier.html. And what I'm going to do is I'm going to let users type into this text box. And we're going to classify whatever they said as a bunch of different possible subjects. And we'll do it without using any large language model. We'll just use a small model. Right now, I'm going to use this very helpful library that's been provided by hugging face called transformers. and that can load small
+
+    
+    41:28
+    models. So here I'm going to load this small model called deberta v3. That's a small language model and it can be told to do different tasks. In this case I'm going to set it up for zeroot classification. What that means is we're not going to do any special training process. We're just going to give a set of labels and tell it pick the most relevant label just based on the text of the label itself. No training, just go. All right. And in this case, I'm saying you can pick multiple labels if you want
+
+    
+    41:54
+    to because some string might refer to more than one of these three labels. All right. So this model is so small that I can even run it actually inside a browser. Now I'm not saying you should. In fact, you probably should not. But if I can show you that it does work in a browser, then hopefully you'll be convinced that I could very much run this on my server if I wanted to. Right? So let's reload and then we'll have a look and we'll see in the console I'm getting a bunch of warnings and stuff saying like are you you know this is not
+
+    
+    42:21
+    a great idea. You're loading this model into a browser. Are you sure? And if we have a look um over here at the files that have been downloaded we've just downloaded this debert model.x file which is uh 300 megabytes. So that's a you know it's a bit big to put in a web page but it will work. So I can now do something like um await um get classifications of I want to buy stuff, right? So what labels will it come up with for that? Well, it's coming up saying that the most likely label is sales 77%, complaint 27%, servicing 18%.
+
+    
+    42:53
+    Now those numbers don't have to add up to 100 because I've told it it can use multiple labels. So you know it can use as many as it wants. Right now let's see how fast this is. And to do that, I'm going to make it do it in real time as I type. So let's just add a bit of JavaScript for an event handler firstly. So whenever there's an input event in that text area, we're going to run some code. And what that's going to do is it's going to make sure that it's the only task that's running. I know that's
+
+    
+    43:20
+    a bit uh annoying bit of boiler plate stuff, but I don't want to run multiple inference processes simultaneously because it'll get very slow and it actually just doesn't work. So obviously I don't want to do that. So, as long as there's only one thing running, then I'm going to call get classifications uh on the text that the user has just typed in uh right now. And then once we've got those classifications, I'm going to uh display them in the UI using this incredibly basic technique of just using
+
+    
+    43:45
+    string concatenation to make some HTML. So, let's see if it works. So, let's say something like I need to book a an appointment, right? And you can see that it's coming up as servicing 89% probability for my horrible car. Let's even spell that correctly. And you can see that as well as servicing, it now thinks that there's a 50% chance that I'm trying to complain as well. And that's just running entirely in the browser on this 300 megabyte model. Obviously, you could do that in your server application as well if you want
+
+    
+    44:18
+    to accomplish some of this stuff without needing a big model. All right. So that is many of the things that we can do. But we can go even further still. Now more recently, you might have heard quite a lot of excitement about the idea of reasoning models. Reasoning models are supposed to help AI overcome some of its big limitations. The fact that it hallucinates, the fact that it uh just says the first thing that it thinks. Now how does work and could we create a reasoning system ourselves? Well, the
+
+    
+    44:48
+    way it works is sort of shockingly basic and and just as an amusing little hack really. Well, I'm not sure that it really is if you're going to do this absolutely for real, but the the simple way that I'm going to show you right now is surprisingly effective despite being an absurd little hack. All right. So, what I'm going to do is go back to this system here that um just uses this very simple basic model to follow a pattern. And I'm going to establish another pattern for it that's going to do some
+
+    
+    45:17
+    reasoning. Okay. So, what I'm going to do now is I'm going to take uh this conversation and I'm giving it examples of how to reason before you speak. So, basically the principle is think before you speak. All right? So, I'm giving this example. what has more people and it does think and it comes up with some facts before it actually provides an output. What metals can I eat? And it thinks a little bit about that and comes up with an answer. What's faster, a horse or an animal? It thinks and it comes up with the obvious answer first,
+
+    
+    45:44
+    but then he thinks, oh, maybe we're talking about something else. So then it comes up with an answer based on that. All right, so it's an absurd little hack and we can ask it now, what is the biggest level living thing? And we'll ask it to think about that. And what does it do? Well, it's going to have to reload the model first. Uh, the blue whale is considered to be the largest animal on Earth and then it goes on to produce an answer. Now, I don't actually want it to um stop thinking. I want to
+
+    
+    46:09
+    control how long it thinks for. So, I'm going to add think to the list of stop tokens. All right. And then I'm going to rerun this again. So, let's do that again. Uh, and it's going to come up with a slightly different answer every time. So, I can run that a few times just to show you that we're getting different answers. Okay, that's great. Um, but I don't want it to just say whatever the first thing it comes up with. We want it to sort of second guessess itself and consider alternatives. So the other hack we can
+
+    
+    46:34
+    do is just add to the context window but wait like that and say now just carry on thinking. Imagine that you've just said but wait in your own head. What would you go on to say next? Wait, it could also refer to trees or whales. And we can do this again but wait. And we can do this as many times as we like. I think they might be asking about human orcas. What? Okay. Um All right. And we can have as many steps of that thinking that as we want. And uh then we tell it all right stop thinking now and generate
+
+    
+    47:03
+    your actual answer. In this case, if you mean the heart then that's quite large but not literally the biggest. Why? I don't know why it's thinking about that. All right. But anyway, it's come up with the idea Californian redwood trees. So anyway, that's the uh hacks that we can use to take a very basic model that doesn't know how to reason or think and force it to second guessess itself a few times and eventually hopefully come up with a higher quality answer. Although in this case, I'm not entirely sure
+
+    
+    47:29
+    about that. Okay, so there's a bit of reasoning for you. All right. Now, a lot of that is quite sophisticated stuff that it would take you a while to add to your application. Are there any simpler things that we can do if you just want to make some progress with bringing in some AI right now? Well, one of the simplest things you could do is look at ways of improving the UI in in your application with a bit of AI. Uh so some simple examples of that uh that we've shown in some other talks in the past
+
+    
+    47:56
+    and available as open source examples. You could have something like a smart form where instead of forcing the user to type out everything in it, you could let them copy some text to the clipboard and just click a button uh that uses AI to match up everything in that block of text to the form. And is that difficult to implement? No, of course it's not. It's just structured output. You're just taking some text and saying extract some information according to the schema and it's going to do that. You can put it in
+
+    
+    48:22
+    the form. Easy. All right. Another example, autocomplete. You've all seen examples of autocomplete. you use them every day. But usually autocomplete is just like a generic system and it doesn't know anything about the user's scenario or anything about your business processes or whatever. But if you implement this yourself with a bit of AI, which is just token prediction, uh you can put into the context any information that's relevant like what your company policies are, what the URLs and email addresses are, what the task
+
+    
+    48:49
+    the user is currently trying to complete and so on and then the completion will be sensitive to all that. All right, that's pretty straightforwards and even simpler still just straightforward semantic search, right? It's really easy, really cheap to do. No large language models involved. Whenever you've got some sort of search feature in your application, is it going to be better if it's a semantic search so that the user doesn't have to type things in the correct spelling. They don't have to know what the exact terminology is. And
+
+    
+    49:15
+    we can just match stuff semat semantically. So I don't know what the expense category for cats is. I just type in cat and it comes up with pet care. that's genuinely going to make things easier for our user. Okay. Now, one final example of making a richer UI using AI systems would be something like these things. Okay. So, you know what these things are, right? These smart assistants. Uh some people have them in their homes. You walk in and you go, "Hey Siri, play me some music." Or, "Hey, Google, cancel all my meetings."
+
+    
+    49:44
+    And it theoretically does that for you. Um, now that's fine, but what if we could create something like this within your application that knows about your application's processes and is specific to the kind of tasks that your user is trying to complete. So here's an example of how we could do something like that. I'll switch over one more time. All right. So, uh, I'm going to show you how we can implement something like this in a minute, but let me just start by running it. Uh so this uh is an example of an
+
+    
+    50:16
+    application where we're listing vehicles for sale. So you work for like a a car sales place and you have to go out walking around in a parking lot with an iPad typing out details of all the vehicles that are available for sale, which is a bit of a painful process, especially if you're trying to edit stuff on a touch screen. But it would be a lot nicer if you could just speak. So you could say something like, "Okay, I need to list a Toyota Prius from uh 1855. Okay, it's done 2 million miles and all the tires are in great
+
+    
+    50:51
+    condition. Actually, no, the back tires are badly worn. All right, so that's pretty nice. It's easier than typing stuff out. Um, but it's um basically just a form of speech recognition at the moment. Could we make it do more useful stuff? Well, in fact, it will do more useful stuff because it's not just speech recognition, but there's actually an AI system behind this. So, we get all kinds of interesting emergent functionality. So, for example, let's say that I need to swap these front and back tires
+
+    
+    51:20
+    around. I didn't write any code in the application for swapping tires, but because we've got an AI assistant, I can just say, um, actually, swap the front and back tires over, and you see they just swap over, right? Because AI can do stuff like that. Or, um, oh, actually, it's actually 2 million cm. So, can you put that in miles, please? All right. Now, I don't know if that's right, but you know, it's um helping the user out do these kinds of tasks. And it could automate other things like clicking this button to add
+
+    
+    51:50
+    uh condition details to the car. Um so, right. So, for the condition of this car, it is um exactly the right size for a car and it's made of normal car materials. Um, it's also parked in the best parking spot. All right, so I I'm not really a car person, but I assume that's how a car listing works. Um, and we can then get it to do other more useful things like being able to edit stuff for us. Um, right. So, for those conditions, can you make it sound much cooler, like it's written by a saleserson? Yeah, I want it to sound
+
+    
+    52:27
+    like it's really written by a salesperson and they're so enthusiastic about this car. Okay, that's good. But make it a bit more aggressive and manic and put some of the words into all caps. Yes, that's great. And for each one of those words uh that's in all caps, I want you to put a relevant emoji next to it. All right, so it commands the prime parking lotion. You want that car, right, don't you? Okay, so that is a whole bunch of things that would be so much more difficult to do if you had to type your way type your way through it
+
+    
+    53:01
+    on an iPad. Okay, so how can we implement something like that? Is it a lot of code? Well, it's actually not that much code. So to show you, let's um use Git to uh switch over to a different branch where I don't have any AI functionality. Okay, so I'll just reload my project now. And I've just removed all the AI stuff from that application. And we're going to read it step by step right now. So let's just wait for that to reload. All right. So you see my buttons have gone away. All the AI stuff has gone away. Um so what kind of code
+
+    
+    53:33
+    do we have to add to our application to make that work? Well, I'm going to start off in the UI and I'm going to add those bits of UI for the microphone and the speaker. And I'm not going to worry about how that's implemented because that's specific to Blazer in this case. You I'll give you a link to the source code later if you want to see it. Obviously, it would vary depending on what UI technology you were using. Um, when we click on the microphone icon, it's going to turn on the microphone using browser JavaScript APIs. And it's
+
+    
+    53:58
+    going to start using this other component called real-time conversation manager of T. Now, that's not specific to cars. It works with any T model. And the T model that I'm going to use in this case is this car descriptor, which has got make and model and year and stuff and tire statuses. Okay. Okay, so we've got this whole structure of data that we want to work on and we're defining some instructions which is like our system prompt but for a real-time AI system saying you're helping to edit a JSON object which conforms to the
+
+    
+    54:26
+    following schema and we can compute that schema based on the type that's been passed in. Listen to the user collect information for them when they provide information add it to the JSON object. So it's going to build up information inside a JSON object and I'm binding that JSON object to the UI. So whenever it gets updated, we just see it show up in the UI and the user could edit in the UI as well if they want to. All right. And then we are going to give it the ability to send us those changes whenever they're ready. So that's what
+
+    
+    54:53
+    this little AI function up here does. This lambda that's going to update the UI. And um down here, we're using OpenAI's real-time APIs to start a conversation session. And then we're just not doing anything. So we need to do some more stuff to actually process the conversation while it happens. So what I'm going to do is I am going to put a little for each loop down here. Because this is a real-time system, we can get notifications at any time that something has happened. So asynchronously I'm going to wait for
+
+    
+    55:22
+    notifications. The first one I'm going to get is that conversation has started. I'll display connected and then I'm going to start streaming the microphone data to OpenAI in the background. And then I'm going to capture a couple of other events that come back. So input speech started and input speech finished. So that detects when the user is speaking and when they stop speaking. So let's see if this is actually working so far. So I'm going to now um turn on my microphone. And then when I speak,
+
+    
+    55:49
+    you'll see that it says speech started and when I stop it says speech finished, right? So that's using serverside voice activity detection. It's sending the microphone data all the time and then on the server they're deciding whether I'm speaking or not. Right? So now let's try and uh get some responses to come back from this thing. Um so this is set up for audio output by default. And so whenever I talk, it's going to try to talk back to me with these little chunks of audio data. And when that ever that
+
+    
+    56:20
+    happens, I'm going to cue them up to be played through the speaker. I'm also going to capture a transcript of it. And when it finishes speaking, I'll display the transcript on the screen. So let's try that out. See if we get some audio output. Hey, what can I do here? I'm here to help you list your car for sale by updating its information. You can provide details. Got it. Got it. All right. So, it's replying to us verbally. Awesome. But I don't actually want to listen to it talk to me. It's kind of
+
+    
+    56:51
+    annoying. It's a bit slow. So, what I'm going to do is come up here and I'm going to change this content modalities to text. So, now it can only respond in the form of text to me. I'm also tweaking the turn detection options to make voice recognition a little bit more reliable. Okay, so now it will just reply to me with text and that's good. Um, but I actually I don't even want it to reply at all if all it's doing is just updating information. So I'm saying just don't even reply. I just want you
+
+    
+    57:17
+    to keep updating this JSON object in effect. And then in order to update that object, it needs to call this function that provides the updated data. And it's not going to do that by default. I have to call this method handle tool calls async to actually enable that. So now hopefully we've implemented everything we need. Right, I want to list a BMW 3 series. All right, so it's working and we've got this capability implemented in what? I don't know, I've removed line numbers, so I don't know, but it's
+
+    
+    57:47
+    probably like a couple hundred lines of code. And uh I think there's a lot of potential to do this sort of thing in applications and improve experiences for users, but we're still at the start of this and we're still figuring out what kind of patterns would work for us. So if you want to see the code for that, give it a go and have a mess around with that yourself. Uh you can go to this um git repo there. So that's going to be all we've had time for today. Um we've covered quite a lot of ground. Uh we
+
+    
+    58:12
+    started off with trying to define what AI and thinking even are. We talked about the Eliza system. We went through marov generation. We trained a GPT2 model from scratch. Uh what did we do else? We went through a bunch of um business scenarios with like structured data extraction, chat and function calling, small models. Um and then we've gone into uh reasoning and then finally voice assistance. So I hope that somewhere along that journey something was uh vaguely interesting to you and maybe uh even potentially useful if
+
+    
+    58:44
+    we're super optimistic. Um, but mainly I hope that it was fun and mainly I hope that you have a really good time over the next couple of days. I would love to chat to many of you uh and find out what you're thinking about the way that you want to build your software. Um, but that's all for me. So, um, have a really good time today and see you around.
+
+    
