@@ -1,0 +1,453 @@
+
+    00:00
+    Welcome to Project Synapse. This is our weekly discussion with John Bernard, Marcel Gier, and I where we talk about all things AI. We have some great stuff to talk about today. Marcel, you came up with some things that yesterday that you've put in into our Discord and you've also you had some ideas of things you wanted to talk about. So, why don't you lead us forward? All right. My favorite thing that I wanted to talk about was we spend so much time talking about what OpenAI is doing, Enthropic is
+
+    
+    00:30
+    doing and stuff like that. And every once in a while we come down hard on Google because we keep missing the boat on this. They keep doing this. Somebody keeps taking their lunch, blah blah blah. And Google's had a really good week. I don't know if you have been paying attention to what the stuff that's out there at the moment, but I'm starting to think that I used to wonder whether the most of my wasted money in these services that I pay for on a monthly basis was actually going to Google for their Gemini Advanced
+
+    
+    00:56
+    product. And I'm starting to think that they are really rocking in Gemini Advance. For starters, their 2.5 model has been really good for a while now, but they just put out an update. You remember we did the show on vibe coding? Was that just last week or two weeks ago? Yep. All right. Anyway, they just put out an update that sort of pushes the envelope to serious degree for vibe coding. Now, this particular version is the Gemini Pro 2.5 model, but they have a I think it says hyphen 0506 because of
+
+    
+    01:30
+    course none of these companies use their AIs to come up with a name for their AI model. The more confusing the better. And not only that, but they've proven that humans can't do math cuz they can't do a sequential set of numbers. The AI does just fine. Thank you very much. And they are speaking of hallucinations, they've hallucinated the idea that this is really a good way to make access to this. And I'll tell you like one reason why people aren't paying attention to Gemini. You can't figure out how to
+
+    
+    01:58
+    frigin get it. You can if you play with it, but it's hidden off somewhere else. I'm paying for something. I'm going to go look at it. If this was open AI, I would have typed in chatgpt and I would have gone in and I would have selected that and seen it. I'm paying for something from Google. I don't know if it's this. It pops up with AI stuff all the time. Do I have to go there or do I have to remember where is the lab? Where do I find it? Yes. Yes. They have they have made this labs and this AI studio.
+
+    
+    02:27
+    Remember, they're like different. Oh, absolutely. Couldn't have one thing. This is the company that can't shoot straight on marketing. They should sincerely, forget about artificial general intelligence. Let the AI run their marketing. Don't talk to any of the humans there. It will do a better job. Anyway, enough of that. But if you could tell us where to find this, I think it's No, when you finally find it, it's really good. You're just tired and the time that you had to work with it is gone because you spent all that time
+
+    
+    02:58
+    finding it. Yeah. But Of course, they not only have it I know. I'm so sorry, Jim. I really didn't mean to do this to you this morning. But anyway, just to go back to this they so they have an update to the 2.5 Pro model which is actually sitting in AI Studio and you get there by just typing AIS.google.com and that will take you into the development versions of these products. And their [Music] 2.5-05-06 model is so good it can oneshot like graphical applications. Obviously, you want to sit there and deploy it, but I've done
+
+    
+    03:36
+    things like I want a game where I've got this 3D low poly thing that floats in space that's got roads across the top or something like that and as a character walks across it, it wobbles back and forth. Remember the game Tippets from when you were a kid? that sort of thing where you walk in one direction and it starts to it starts to tip. So I had this basically this island sort of landscape thing and as you walk across it it tips so it understands the physics of it and so forth and like it oneshotted this thing including WD keys
+
+    
+    04:09
+    to move around. It's impressive as hell. Now I did tell it that I wanted an HTML 5 JavaScript thing that I could run in a single file so that I didn't Yeah. No, but it's so it is a really impressive update. And if you go and look at things like the the LM arenas and places like this, that's the one that's currently like at the top of the list at the moment is this new Gemini 2.5 Pro 5 has a certain ring to it, doesn't it? One of you rolls right off the tongue off the top. AI studios.google.com. You go there and you
+
+    
+    04:46
+    look, you ask for can I have the 2.5 model 0506. If you go to AI Studio, what you're going to wind up with, it's a little bit weird. Over on the lefth hand side, you'll see something that says chat and then stream and video gen and starter apps and a bunch of other things like that. What you want to do is be in the chat window and then over on the right is a dropdown that says Gemini 2.5 Pro Preview zero. six and that's the one that you want. And I just want to point out that not only is this thing amazing in terms of
+
+    
+    05:21
+    coding, but it has a 1 million token context window. So you can drop like your whole code base on whatever you're working on inside that window and have it work from that. It is nothing short of impressive. Like it is really cool. The idea that you could have something where you just say what you want once and it pretty much figures it out for you is it's like the future, right? I need something that does this and it just does it for you. So, I think we're heading in that direction. Now, that's
+
+    
+    05:51
+    one thing that Google dropped this week. Jim, I know that I pointed you to the VO2, like the V2 model, which is their video generation a couple of weeks ago or something like that. And to use that, you had to go to, wait for it, astudio. Google find it in the lefth hand side under video gen and all that sort of stuff and you can still do that but if you are a paying customer of Gemini advance it is now one of the models that's available to you directly so you don't have to go looking for it in some
+
+    
+    06:24
+    weird place gemini.google.com google.com like your usual place. Yeah. To the AI and VO2 is in there. I have had such amazing luck doing things with it. It's a joy to work with. You can import other things to start with to work with the model and it's for anybody who has access to the to the Gemini product who's paying for Gemini Advance has access to the video generation model. And before you ask, yes, it's head and shoulders above Sora. It's the eye of Zora. this film. There's so many different tools out there these days and
+
+    
+    06:58
+    I think it's going to get to the point Marcel you talked about how Google has had great strides this week and my thought was okay so who's going to have the great strides next week it just seems to be this leaprogging but I think it's going to get to the point where you're a Google guy that I think it's gee I can do 80% of what I want in Google and the other 20% it's or I can go to these stellar product somewhere else. I think a lot of people are just going to go, you know what, it's nice to have everything in
+
+    
+    07:29
+    one place. I'm just going to do it all in Google. We've been doing that with Microsoft for years. Yeah, I'm not ragging on Microsoft, although No, you're right. That seems to be my job these days, but it's still the reason people will satisfy if they can find everything conveniently. And this is what frustrates me with Google. They could they could do it so easily. They could have made this so accessible and so easy. They could devastate Microsoft on this video model for months and they've had email forever and access to it. And
+
+    
+    08:02
+    now suddenly after all this time of waiting, who uses the stuff in their email? You finally got it there. But who uses it? The one thing I wanted to ask about was the video model. Is it like still a 5-second clip? That's what you've got to work. Um, it goes up to 8 seconds. is you can do an 8second clip. Okay, I know it doesn't sound like much, but the fact that you're not like almost all of these places that offer you decent advanced models, whether it's Cling or whether it's Miniax or something like this, they have a free
+
+    
+    08:33
+    thing where you get you can generate like a couple models and then you're stuck for the day. The thing with having it wrapped in as part of normal offering like this is you can generate as many as you want and AI video is becoming really amazing like to the point that it's you have to really look very closely when it's well done. Again, Sora's physics just suck to this day. OpenAI really needs to come up with something with some update to Sora at some point. But the V2 model is one of those where the
+
+    
+    09:03
+    physics are really good and like the tracking of somebody's hand as it goes by is really good. It's an impressive product, but AI video, you sometimes have to throw it a lot of things before it actually gets what it is you're looking for. So, if you have to pay on an individual, you've only got like a 100 credits in a day or something like that to generate it, it'll take you forever to find something that you like. Whereas if it's wrapped up into something like Gemini where it's part of your subscription and you have access to
+
+    
+    09:31
+    it, you don't feel like you're constrained by those few credits and then bashing your head against it. You can just generate models until you find something that you like. The reason I ask is because 5 seconds is really incredibly disciplined because I'm going to go back to think what can you actually do with this except and I've gone up to it. I go make a couple videos and go, "Okay." And then I go and try and do something I could actually use. Maybe an intro to a show. Nah, I can't do that because either it's too short or
+
+    
+    10:00
+    it has some mystical property that says, "I can't do that because that involves access to the real world. I can produce a picture of Donald Trump, but I can't predict a picture. I can't do a picture of you." So you go, "What can I actually use this for?" 8 seconds gets a little because I understand you put the clips. You got to put the clips together to get anything. But 8 seconds gets a little more. But that's part of the problem too is video rendering is such a a processor intense activity more so
+
+    
+    10:33
+    than a lot of these other things too. So I can understand why they're limiting it at this point. I know why they're limiting it. The same reason that you know I don't think I don't think chat GBT they invented Sora and now they're thinking like we do that. What are people going to do with this video? You have to be a real pro to put together 5-second clips to get anything useful. You can make something amusing. You can have fun with it, but I'm telling you, all those people out there having fun
+
+    
+    11:01
+    with it are just costing them money. Yes. No, I agree. And at some point, somebody's going to have to figure out some way to in at the $20 a month at the moment, it almost feels like you're at a free tier. I like for somebody who spends way too many $20 a month. 20 bucks a month for this kind of power and the ability to do all these amazing things is incredibly cheap. Uh unfortunately, you can't do it all in one place. And these people are going to have to figure out a way to either dramatically reduce the overhead of
+
+    
+    11:32
+    running these models or come up with a power system, small modular did a show on that today, which would allow you to have the resources necessary to generate this kind of intelligence or video or video. Elbows up, guys. They're going to be coming. They're going to be coming to Ontario for that little mini nuclear power. Don't need no nuclear power to kill us in an hour. Singing in the shower. No can do. Are you just making that up on the fly or is this from something I should No, this is an old song that we used to sing
+
+    
+    12:03
+    in the days of So now we got to get a new song for the micro reactors. But this is the power requirements. We could get sidetracked into that, but it's really because I do want to actually have a linear move through the stuff that you discovered with Google, but the power requirements of this are when you think about what a gigawatt of electricity is, it can power like I think a million homes and we're going to need a minimum of 80 more gigawatts in the next 5 years, maybe 200 gawatt. So, flex capacitor.
+
+    
+    12:37
+    Yeah, exactly. Well, that'd be good. So either we need to get way more efficient with video because this is more that could be one big thing and with AI in general, but these four little reactors running in Darlington now provide together will provide a gigawatt of power and they can be built to be clear. No one's actually built one of these things yet. So this is a that that's why I did the story. We will. There's a difference between building them in Ontario and somebody from Microsoft saying, "Yeah, let's this is a good
+
+    
+    13:08
+    let's start a project." Or worse, Google because Google will get halfway through it and go, "No, scrap it." But Ontario Hydro will build this. By the time it's gone past our nuclear commissions, by the time it's gone past the planners at Ontario Hydro, and these guys have been planning and building bigger nuclear plants than we built bigger than this, buddy, they they will deliver this. While we've got our elbows up here, we should probably just point out that for the longest time, Canada led the world in terms of
+
+    
+    13:37
+    building nuclear reactors or can do reactors. We have a history of being able to do this sort of here. We know how to do a lot of the companies like Amazon and I think Google and others were all talking about they were going to build their own nuclear reactors, but I think they've actually backed off on that now when they actually get into it. And it's like the nuclear industry who Okay, what do I really know about this? All I know is Americans got out of the nuclear industry. There's still some plants
+
+    
+    14:05
+    running, but they haven't built much in the past little while. And they've got a couple of these reactors they're thinking about refurbishing, including remember three-mile island. Oh, yeah. I love the thought of bringing those reactors back on stream. But these little modular ones are Yeah. Nuclear power is going to have a potential for error. When we had isotopes being made by it in Chalk River, there was almost a meltdown in Sudbury in Canada. And who saved us for five points? Jimmy Carter. Oh wow. Jimmy
+
+    
+    14:40
+    Carter was working in the Chalk River nuclear plant. There was a nuclear accident there. He went in against all odds and managed to I don't know that I don't remember the whole story, but he went in and actually got it fixed and then he went on. That guy was a god among men, wasn't he? He was. Anyway, back to Google. And so I went to gemini.google.com and it comes up and says, "I'm sorry, Gemini is on a break right now. It's unavailable." Okay, that's right up there with oops, something went wrong. No, but it's they
+
+    
+    15:11
+    figure on a break. Taking a break. talk. Do we want to go back to Google or do we want to talk about OpenAI's bid for running the entire world? Because right now all of a sudden I've just lost all interest in Google. No, we have to go back and finish this because we actually have people who listen to this. So you're saying 2.5. How is it with hallucinations? Are you this 2.5 is a better model. How is it doing with hallucinations? Which is I think the Google problem. It does well. Hallucinations first of all are I'm
+
+    
+    15:41
+    going to say it again. Hallucinations are a future not a bug. It's a question of how much you hallucinate and whether Let me ask is this in a way that Marcel will answer it. Is it doing marvelously at its job of hallucinating or is it doing it poorly? It's doing it marvelously actually. Okay. Okay. The thing with this particular model, okay, they have specifically and purposely engineered or focused this model to things like coding tasks, keeping in mind large code bases and stuff like that. So they're it's not a looking for
+
+    
+    16:13
+    facts engine. So it's designed for the purpose of who's the current. Good point. Good point. Where is they have directed? This is actually this came up because there there's a whole thing about open AI and increases in hallucinations. it I have noticed it mildly but because of the way I construct my work which is I if I'm looking for facts I make sure I ask it to double check actually ask it to triple check because it's not my electricity and check the facts including word for word on any quotes
+
+    
+    16:46
+    and list your sources and then I drop over to perplexity or another AI pop the thing that it's given me into it and say is this true now you created a module for me for stories at one point and I use that to check regular stories and say is it true? It's really quite good actually. Still working still doing really a great job. Yeah. And I have not touched this thing in a long time but nice that it's still working. The hallucinations in Google were what keeps me from using it regularly because it just makes stuff up
+
+    
+    17:15
+    all the time. But in coding hallucinations in some sense are actually a good thing. Coding is actually a very simple language. I realize there are a number of different languages, but they're limited in ways that normal human languages are not. So there's only so many places that you can go wrong on this. And because it has such a huge context window, it's able to hold this concept of whatever it is that you're building in its memory and work with that whole codebase in one shot. And what I've been able to tried to push
+
+    
+    17:46
+    it beyond that point and I've run into a couple of issues, but then you tell it this is what the problem is. And because it's able to hold so much information at one time, it is able to isolate the problem that you've identified and fix that problem without too much fuss and bother. Now, a a tool like cursor does that by basically using equivalent of rag. In other words, it knows looks at all the files that you've got stored on your PC and that's what it works with. So, it's a slightly different vision
+
+    
+    18:16
+    than I've got the whole thing in my memory and I'm working from this whole thing in my memory rather than going back and look at a file. And if you code in something like cursor, you you notice that because every once in a while you have to say go back and take a look at this file where the information is, right? So, it it doesn't necessarily keep it in memory, but because you can refer to what you've got on disk where you've made the changes, it can go back, take a look at that, and work with what
+
+    
+    18:42
+    you've got out there. reference is is damned impressive. Yeah. And we think about it. I we were talking about doing a WordPress site. You know what's the template for a WordPress site? 75 megabytes. You need to put programs in especially today. You need a great context window. And also I think it's based in fact from what I've been reading but also what I encounter is that many hallucinations are failures of memory. In other words, it just it gets mixed up and lost. You can find this all the time with Open AI. It'll
+
+    
+    19:14
+    start misbehaving. You think the crazy thing has gone crazy. You start a new chat. You put the prompt back in and it comes back online. So somewhere along the line it gets lost in memory. Memory management is not what we think of it on as on a PC. They're doing something much different and it every once in a while just gets mixed up. I actually find with things like chat GPT that if you ask it give it a prompt and it comes back and then you ask it to modify it and it comes back with something different and
+
+    
+    19:43
+    you ask it to modify it slightly again. I find the more times you ask it to modify it the more I don't know if I'd call it the more it hallucinates or the more it changes the story the more it travels from the original concept is the way to look it becomes like a game of telephone. you remember the telephone game as a kid, right? Like by the time you're 50 steps in or something like that, it forgotten about what it is that he's talking about at the beginning. So this 1 million tokens context window to
+
+    
+    20:13
+    work on a particular project is huge. Now Jim, you were talking about hallucinations. One of the things which is interesting about as these models get bigger, as they get more intelligent, they tend to hallucinate more, which is weird. That's coming up with open AI as well. That's the big story this week is the smarter the model, the more it hallucinates. Yeah, this is becoming a huge issue. I mean, it's human beings hallucinate. And unfortunately, the more information you take in and the more information I take, like the more we
+
+    
+    20:46
+    read, the more we look at things, the less likely we are to remember exactly where that one piece of information came from. So, we suffer from the same thing. So, in a strange sort of way, we really are building an artificial intelligence. It's just that it has even more stuff to hallucinate from than we do. Well, couple and put them together for 20 40 years and I don't remember things the same way my wife does from very simple factual things. So memory is not what it I remember it as. That's a it's not what
+
+    
+    21:21
+    it used to be. The thing about memory is human memory is we have this weird idea somehow these models that we're building are so much inferior to us in terms of memory and we are giving ourselves way too much credit because the way that human memory works is you don't actually remember things as a snapshot in time. We have this weird idea that say I've got a picture this is what it was like and so forth. No, every time you call up a memory, you're filling in a bunch of details because you're remembering core concepts. That's
+
+    
+    21:53
+    the weights, our neural neural weights coming into play. You're remembering certain things, but it's not the whole thing. So, what you do is you fill it in with new information and then you take that new information and that creates a new memory. Every memory that you bring up, everything that you remember is a recreation of what came before. So even our memories are a game of telephone. No, I I just you we were talking about hallucinations and so on and I just I look at it that people expect humans to
+
+    
+    22:22
+    make mistakes. It's go it goes with the territory, but as soon as you put it or have it coming out of a computer or a robot, the expectation is that what you get out is perfect. And so I think that's part of the issue that I always worry starting my career out as a programmer. I've made mistakes, but I know that people are expecting code that's computerenerated to be perfect. You're not really a programmer, are you? Confess. Not anymore. Nobody Nobody who's a programmer believes that anybody else's code is as good as
+
+    
+    23:02
+    theirs. And any piece of code they pick up is just total crap. How do I know this? Like I said, I got caught reading this program. This person doesn't know damn thing about what they're doing. And then I realized it was mine. Mine. We may have created something that is closer to the human brain than we think. We've always talked about artificial intelligence as being a different structure and we need to understand it as a different structure. But in some ways in memory these neural networks function more like us than we might want
+
+    
+    23:33
+    to think. No. Okay. So let me just throw in a place where the AI is going to inevitably do better than us on this. We brought up the concept of MCP which of course I have to I keep thinking master control program because my brain goes back to but this protocol that goes in Jim's looking it up. Thank you Jim. this protocol that allows artificial model context protocol. Sorry, model context protocol. Thank you. Not master control program. Model context protocol. Anyway, there are a whole bunch of these hooks
+
+    
+    24:05
+    that are built and it is now already a standard. In other words, we don't have to worry about the fact that somebody else out there is trying to create their own version of MCP. It exists and people are building things around it. The beauty about that is we can have a model that if we ask the model to do absolutely everything, it's going to have more issues. However, the model should be able to do what a being does. If I have a complex calculation mathematically speaking, I'm not going to do it in my head. I'm not going to
+
+    
+    24:33
+    take out pen and paper and start to do this. I'm going to pick up a calculator or I pick up my phone and open up the calculator app because it does that a hell of a lot better than I can ever hope to do it myself. And I think that this is where we're going to win that game with AI model. Yeah. Because we're going to have these agents that the model is smart enough to say, you know what, I'm really good at these sorts of things, but when it comes to this, I should defer to this other model out there. So in places where hallucinations
+
+    
+    25:03
+    are more likely, the model can then refer to something that is tighter, more integrated into what's capable of doing and therefore is less likely to make errors. Has any have you guys noticed that although Sam Alman said that they were going to relax what you could do on p picture creation that they haven't that they pulled back somewhat on it. I've been refused more and more times saying I'm not allowed to do this because of some sort of rule that is there if you because I write a lot of stories and actually one of the places I
+
+    
+    25:35
+    use AI a lot is to create graphics for that go above web stories because nobody cares what the graphic is. I'm not going to spend a huge amount of time looking for these things. I could get a library and pay for it and look for them. Or I could just say create a graphic that does this. Like I said, nobody's coming for the pictures. But I do that, but I get refused more and more times because of rules and regulations or safety guard rails in the AI. Are you seeing that on Google as well or have they? Um, I
+
+    
+    26:04
+    actually they seem to bounce back and forth and I'm not entirely sure why this is the case. You remember one of my big complaints was the fact that if you ask simple questions like who is the president of the United States I can't answer that maybe you should do a Google search so Gemini will answer like that whereas all the other models Chad GPT meta whatever will actually give you the information like Google is so worried about offending that they won't do that now for a little while for a brief
+
+    
+    26:32
+    shining moment of a few days it would actually answer political questions and I'm not talking about do you think that Donald Trump is a complete and absolute or like you not questions like that but something as simple as when was he elected president of the United States or or who is the president of the United States or who is the prime minister of Canada wouldn't answer those questions for a little while there it was actually answering the questions and they seem to pulled back on that as well
+
+    
+    26:57
+    to go with what you're saying there Jim I haven't seen it in chat GPT and I'm not 100% sure see it I'm wondering if but only I don't know it may be a stretch but I'm wondering because there's been all kinds of talk with Elon Musk and Sam Alman and the non the forprofit and I wonder if maybe it's got something to do with all of the stuff that's going on behind the scenes there. Somebody's put a guardrail in there. Yeah. And somewhere in the prompt there's something that that that says don't do this. I would expect that's why
+
+    
+    27:36
+    I think these things change but these again we started out talking about this before the show about software that changes these models are being changed constant for the past two days open AI has been virtually useless it's it constantly stopping constantly not working so Jim you were talking about this little custom GPT thing that I wrote to verify news stories I actually started building a product based on that whole concept cept in other words that was actually the beginning of a product that I was hoping to market at some
+
+    
+    28:10
+    point you were told that GPTs were all going to make into all this individual piles of money and rent them and sell them to the world and stuff like that so I thought there is an opportunity for checking AI when you're looking for a new story but what I ran into and I kept working and changing this and changing is like exactly what you said here every other day I was dealing with a new set of problems or a new set of rules which made it virtually impossible to build something that would work all the time
+
+    
+    28:41
+    across multiple platforms and so forth. And I basically gave up at some point. You used what I created, but I gave up doing anything else with it because I'd already spent a pile of time developing it and you couldn't. One of the complaints about tariffs at the moment is that businesses can't plan for the future because they have no idea what things are going to cost. Okay? You can't plan for the future of an AI based product. It's really hard unless you can bring something to market today, charge
+
+    
+    29:08
+    people money for it that day and hope to God that you can keep it going for any length of time. You can't build something 6 to 12 months down the road because it's not going to be there. But the other thing too that and we talked a little bit about this before the show is reliability of the tools. As you've heard me talk before, we're a Microsoft shop, so we're using Copilot. And this for the last seven days, we have had more people unable to use it than able. And I was able to use it 2 days ago. It stopped working for me
+
+    
+    29:44
+    today. And this is co-pilot, the tool itself. And so what if you build things based like if you build agents based on co-pilot to help to run your business and all of a sudden the tool stops functioning. Well, that's it. This is a problem that has to get solved. It goes back to where we started the conversation. We're talking about software. You got to be fast. You got to move fast and break things. That concept of a production world that must be stable and another world that can be experimental has to be resolved in AI.
+
+    
+    30:23
+    And without that, you're not going to get enterprise level functions. If you built your whole customer service around this and you've now got all these agents operating and somebody comes into your office says, "John, nothing's working." Yep. What do you do? Nothing. You can't it's you can't go get the people back and now or John it keeps telling people that they have to get lost. We don't need them as customers. Once upon a time we used to have when I got into this business in the early days especially as
+
+    
+    30:56
+    a freelancer as opposed to working for a big tech company. I started building appliances which were basically mail servers. This is back in the days when email was still a very new thing. So, I would build email servers that lived in people's lives. He was trying to share some information. And if you know what he's saying, you're as old as us. Once upon a time, email was not really a big thing. People didn't really use this stuff. So, I would build these appliances which would live in the customer's office. So, the
+
+    
+    31:28
+    whole mail server access to your email was local. You didn't have to worry about whether or not, you know, your provider was available or not. A few months ago, two, three months ago, Nvidia talked about this new box that they called Digits, which was like one Aeroflop. And I forget how many terabytes of RAM or gigabytes of RAM was in this. It was this amazing little superco computer in a B in a mini PC form factor. And they were touting it as being somewhere around $3,500 or something like that, but able to run a
+
+    
+    32:02
+    complete model locally. There's a part of me that thinks that for a business like yours, John, there is still an opportunity and this probably makes some kind of sense to explore that. Maybe you're not using the latest and greatest, which is not necessarily a bad thing, but then you get to control the prompt. You get to control the system prompt, which decides how the thing is going to behave. Okay? and you make it work for you as opposed to some company out there deciding what your business should work like as opposed to the other
+
+    
+    32:36
+    way around. You should be able to decide this is how we work here as opposed to somebody in Silicon Valley saying, "No, on the contrary, we think you should work this way and we're going to make sure you work this way because our product Yeah. We fixed problems you don't have and created ones you now have." Exactly. And you're welcome. Yeah, if you're an organization that is reliant on AI for your business and customer service or whatever, I absolutely agree that would be the first step I would take is get a
+
+    
+    33:06
+    box in that I can actually run the model locally. Like I without you giving up the secret sauce, John, or giving up anything about the secret projects you're involved in, are you allowed to say whether your company is exploring running local systems like that? We're not now. No. Yeah, we're not now. But if there's been all kinds of talks about things that we want to do with AI and especially in light of the issues that we've seen recently and the talk we've had about open AI with the hallucinations and things like that, I
+
+    
+    33:42
+    would definitely want to make sure that we control what model we're using and what version of the model so that we know that there's some stability there. There was the whole glazing issue two weeks ago. Remember that? Where Chad GPD started agreeing with everything and it was like the world's greatest sick of fans and basically telling you, "Yes, in fact, you are." Can I throw a tip out there for people who are actually using these these products? God, yes. Okay, so I No, I'll throw out two. So I've been
+
+    
+    34:10
+    doing this since day one since Chad GPT started allowing what they call custom instructions in the Gemini allows this tropics code allows this. Chad GPT obviously was I think the first to allow this and I have basically a big giant system prompt to override the way the system works otherwise. And I'll give you an idea of some of the things that I've written in mind. First of all this is what should Chad GPT know about how you operate. Obviously, this is mine. You can do this any way you like, but
+
+    
+    34:42
+    I've written things like this. I'm not going to go through the whole thing because it talks about how I want things written or what types of terms of phrase I'm looking for. But here's the basis at the beginning. So, first of all, I say, and this is for me, this is not necessarily for you, but I say feel free to be casual with me, casual guy. You can address me as Marcel since that's my name. Responses can be as short or long as necessary to get the point across. If I need more, I'll ask you, chat GPT. And
+
+    
+    35:08
+    you are free to have opinions. I value your perspective on things and I welcome those opinions and recognize that you think differently than I do. I consider that a net positive. Please do not remind me that you're an AI language model. I'm well aware of that and frankly it kills the buzz and destroys the immersion. Adopt a skeptical questioning approach to everything. Take a forwardthinking view. Be talkative and conversational. Use quick and clever humor when appropriate. Tell it like it is. Don't sugarcoat responses. Honesty
+
+    
+    35:42
+    is the best policy. And then I go from there in terms of how it is that I want it to handle formatting and the way that it talks to me. That's Marcel AI coding. But note the part about I want you to be brutally honest with me. Don't sugarcoat stuff. So, even before this glazing thing, I didn't even know the glazing thing was an issue because I have a prompt, my own system prompt that overrides all that. Anyway, you can be friendly with me. You can talk to me as though you're we're buds working in the
+
+    
+    36:10
+    office together, but I want you to be brutally honest. I want you to to succinct or as long as possible. Don't fit everything into the same window. And and like I said, I have all these sorts of things about grammar rules. And of course the Oxford coma. God save me from the Oxford comma. Not the Oxford coma. No. Yes. I will die on that hill. Yes. Yes. You will. Believe me. Believe me. So you make your prompt sort of a sucking up to the future overlord and a real conversational thing like Marcel did. Now the we killed our
+
+    
+    36:45
+    segue because I wanted there's something I do want to talk about. Make sure we get done today as well. But and we got sidetracked once again. But that's okay. I want to go back to this because I use I thought I was using chat GPT's memory to try and remember things because I shift personalities depend on how much ketamine I'm taking or whatever. No, I shift personalities through the day for different things that I'm doing. Some of them are more logical, some of them are more creative, some of them are
+
+    
+    37:14
+    different things or a mixture of the two. So, I've resisted trying to put a put something into the main prompt and or your own personal prompt. What's that called? That when you go into chat GPT, if you click on your little picture up at the top, you'll see something there that says customize chat GPT. Customize chat GPT. I've asked it to remember things instead and it forgets them. So, this is where the customiz thing because that's now your system prompt. All right. So that's the part that overrides
+
+    
+    37:45
+    everything else. That's it. Anyway, so Open AI last week launched a new I guess a new I don't know initiative. Initiative that's yeah a new initiative. And that new initiative is country AI. And I did a bit of a story on it and I'm haven't gotten any hate mail. So I'm either I've dropped my American audience or they or people agree with me and that is that they call it open AI for countries. Yeah. Yes. Open AI for countries. So each country could have control of its own AI and they that could be a sovereign AI. And I made the
+
+    
+    38:32
+    argument that it's a little difficult to trust somebody controlling the AI for your country if they are in a country that is trying to take over your country or at least where the president of that country is saying he'd like to take over your country. And that becomes a little explosive because of the relationship between Canada and the United States right now. But even in Europe, Europe is looking for its own sovereign AI. They're trying to build something. I don't think that open AI will get much
+
+    
+    39:04
+    traction in Africa because Africa has been ignored by aid from Canada and the US for decades. Although they say they're claiming they're spending a lot of money, the Chinese are spending money in Africa. If you're going to give a project to anybody, be it a port, be it a railway, be it a construction project, or be it an AI, you're probably going to go with the one that gives you the most aid or is most favorable to your country. Plus, Chinese AIs are notoriously good for being easy, small footprint, and requiring less compute
+
+    
+    39:40
+    resources. And when you're in Africa, I don't know if anybody's ever been there, but there's people shipped a lot of computer equipment. I taught in a university in Africa for a short period of time. People shipped a lot of computer equipment there. It's really hard to keep it alive because it's easy to get new equipment. It's hard to get it maintained. Actually, probably similar in many Canadian universities. Easy to get a donation of equipment. Can't run it. Be that as it may, it was a real coincidence because this week
+
+    
+    40:05
+    we're launching a project called maple.org or the or maple institute or institute maple if you're French. Institute. Okay. Yeah, I'll let you handle that, Marcel. And the reason we did that goes back to partly our earlier conversation and partly this. And that is we in Canada need a sovereign AI, something that we control and that we can share. And I think that's also a second piece that we looked at this. So you've got this idea of how you develop an AI. And maybe that's one of the reasons why I was talking about Alman.
+
+    
+    40:44
+    Why I think Altman's and the American outreach may fail ultimately and I think it will and that's because their idea is I'm stereotyping but their idea is very much similar to what Donald Trump's ideas. There's a winner and a loser. Can I explain to people what the open AI for countries thing is or the way that I see it at the moment just so that we can encapsulate that and compare it against what it is we're trying to do here. You mean make this clear? Yes, please. Let me try to do that for countries. First
+
+    
+    41:13
+    of all, we should link to the blog post from OpenAI so that people can read at it. So, here's the scoop. You remember the Stargate program that was announced which was like half a trillion dollars data center thing. You remember that they said and of course everybody was falling over themselves or Sam Alman was falling over himself. Thank you, Mr. President, despite the fact president had absolutely nothing to do with this thing. Anyway, so OpenAI is suggesting that this could be this could help
+
+    
+    41:39
+    countries build what they call a democratic AI infrastructure based on these Stargate type projects which would ensure supposedly that AI development aderes to certain democratic principles like protecting human rights and preventing power concentration. Effectively they're suggesting that the entire country could be run by chat GPT open AI or its future versions children however you want to look at this thing right and of course if you stop to think about that nothing could possibly go wrong with this right like I
+
+    
+    42:10
+    can't imagine anything data privacy and sovereignty concerns will of course be taken care of and there's no potential whatsoever for power concentration among like dominant tech companies oh I don't know open AI and partner countries would of course never misuse the technology of the AI to reinforce their authoritarian controls and undermine all I don't know democratic values or anything like that and of course culturally sensitive issues would pose no challenges whatsoever. So this is a perfect idea.
+
+    
+    42:42
+    You have to distinguish America from Americans. Americans are a whole continuum of people. Some of which I just love being near. some of which I just don't want in my own I don't want to have anything to do with like any group in but overall we've had a pretty good relationship with Americans America right now is not having such a good relationship with the world and I can't believe I keep talking about AI and making huge marketing mistakes but right now do you really think it's a good time for an AI to reach out and say hi We're
+
+    
+    43:22
+    from America and we're here to help you run your entire country with this software. But they're making stuff up. It's a vision, not a product right now. Vaporware. It's still the controlled by a country that is controlled by the laws of America. Not Americans, but America. And America is right now dysfunctional and will probably stay that way for a decade. You don't recover from what's happened there that quickly. So they have this product and I wanted to contrast what we were trying to do with
+
+    
+    43:54
+    what they are trying to do. They're trying to build a software like Microsoft or like something like that and we will let you rent it to run your country. There's a better way to do that and that's for us to evolve our own AI. Now that could take many forms. I'm not claiming that I know how to architect this, but one of the ideas that I think we had was to say, look, there's a lot of really good open-source projects and products out there, and they are, and it goes back to what we were talking about earlier, they
+
+    
+    44:24
+    might not be artificial general intelligence yet, but they certainly are as functional as you need to do a wide range of things. We have not we're still inventing AGI when we haven't even scratched the surface of what a stable AI with current capabilities could do. And the idea that we had was to say why don't we create a single open-source project for Canada. Let people share in it let people fork it. Let people create things from it. And that's we can have I don't want to get into political debates
+
+    
+    44:59
+    about open source but the vision of open source is hey we can all work together. Now that has two advantages. One is there is no central control. There's people are sharing and doing the same things that they have learned as disciplines to come up with great things like Linux great projects that run the world. So anybody who says open source can't do that. Yes it can. It does. The second piece is that we can do something Canadians do better. We try to be a poor second version of the United States.
+
+    
+    45:31
+    We're gonna put massive enterprises together that are going to they're going to rival Google and Microsoft. No, they aren't. Google and Microsoft are going to kill or buy anything we create at that level. What we can do though better than anybody is collaborate. And that's this whole collaboration. This could be the perfect place and an open source AI that was for Canada could very well reflect our nation better than anything else. And that was the whole idea. We've called it Maple and it's spelled M A I P L E. The
+
+    
+    46:06
+    open source community has proven that it is able to build things that are world changing and we've done that with Linux. For one thing, Linux is most people don't know this, but it is the most popular operating system in the entire world. It is on everything. It is ubiquitous. It runs the internet. It runs your thermostat, your TV, your smart devices and stuff like this. Your cell phone, your smartphone. All these sorts of things are running on Linux in one way, shape, or form or some other version or some other additional open-
+
+    
+    46:34
+    source software on top of I've been I mean I have personally been arguing for this since the first open- source model. And we'll argue about just how truly open source various AI models are on another day. And we've actually had that argument here on the show more than once. But I have been arguing for a long time that the open-source community that created Linux, that created much of what we think of as the modern internet has in some ways been looking for something else to affect the world. One of the
+
+    
+    47:02
+    things that attracted me to the open source community at the beginning in Ly was the idea that we were doing something that was changing the world. We were actually having an impact. we were affecting the future in a way that we thought was positive, but not just in a way that we thought was positive, but in a collaborative way. In other words, we're all working towards something and we're all involved in to a certain degree in one way, shape, or form. I think that open models and I'm going to be very careful here not open AI but
+
+    
+    47:30
+    openspace AI models provide an opportunity where that open source philosophy can capture a vision of the future and that vision can start at the level of a country and I think that we in Canada because Canada is actually the birthplace of a lot of what we think of as modern artificial intelligence. Some of the greatest minds in AI came out of this country and out of our universities. So we can capture that idea and capture that history to build a future that brings AI development into the country. Now at the moment Maple is
+
+    
+    48:12
+    an idea and for people out there who want to check this out, you can go to the website maple.org. We have the beginnings of a manifesto there and it actually maple.org/man /manifesto and it explains to some degree what we're thinking about and how we envision the future. But it is the beginning of a conversation and that's the reason that we wanted to bring that out today to get people to check it out to see what we've said where we are to sign up and let us know that you're interested that you think you would like
+
+    
+    48:45
+    to give us some ideas or help us direct how Canada could be instrumental in developing our own version of an open AI. And remember what I said about the system props and so forth. the model weights are a good place to start. And I'm always scared when I give credit to Mark Zuckerberg on this show. But he's right. Open models, open source and open models, I think, are the future. I think more people around the world are saying we do want a sovereign AI. The question is how do we want to implement it? And I
+
+    
+    49:19
+    would argue at this point the reason probably why China is doing open source is not only to share it. I think they would probably lock it up if they could too. But it's a good antidote to the American model. And the American model is absorb all of the information and encapsulate it into a company. Make that company a private company or as private as possible. Lock down the stuff and sell that back to everybody. That's capitalism American style. Nothing wrong with that. When it comes to AI, that's a
+
+    
+    49:49
+    different thing. And open AI started with this sort of idea. Everybody thinks it started because it was open. I'm not 100% certain it wasn't started just to stop Google from owning everything. But whatever games they're playing with that part of it, there is something that has happened and that is for the past few years there's been a lot of people publishing papers and a lot of the material and a lot of the learning from AI has been shared pretty openly. That's been a that's been actually a remarkable
+
+    
+    50:17
+    thing that's coming to an end. Google's starting to pull back papers where they won't publish things and they're starting to say this is proprietary. Open AI we don't know because they're pretty closed. So we don't know what they're saying versus what they're not. And we as Canada had contributed with Jeffrey Hinton with everybody who's anybody any big company in AI has had at least one or two Canadians very senior at the architectural level or the leadership level that has cut their teeth with Hinton at the University of
+
+    
+    50:46
+    Toronto. So we've contributed to this knowledge and we can still get some of it back. Now, this is the perfect opportunity window while things are still open enough for us to have an open source and for us to actually develop a model and start to build on it from there. But that won't always be the case. It if the current line follows it, things are going to get much more locked up and much more secretive and we'll be renting our AI that may run our country from somewhere else. And from a corporate standpoint, data privacy and
+
+    
+    51:19
+    data security is a huge thing. And a lot of companies say that they need to keep their data in the country to which they reside. One of the concerns about using Deep Seat is that it's in China and China has said that data going back and forth they have full access to. So there's concerns with that. No, but and quite frankly the US has said the same thing to an extent. So they're not that far off. So from our standpoint as a Canadian financial institution, we want to keep our data in Canada. And so the idea of using a
+
+    
+    51:55
+    Canadian AI that gives us the ability to control that is huge. But anyway, I don't want to concentrate only on what we're opposed to though. That's why I keep saying this America versus Americans. The ideas of how they develop and that's their ideas. They're not native to the Canadian ethos and probably not workable here. We, as much as we contributed to AI in an enormous way, we were not going to be the ones who brought it in as a product and took over the world with it. That's just not it didn't happen for reasons that are
+
+    
+    52:29
+    also unique to our culture. But we do need to be leaders in AI. There's no doubt in my mind that and maybe I'm wrong, but I don't think I am. I think we we've been soft pedalling how much AI is going to change our economy, our workforce, and all of those things. And we need to be in control of that because we're not going to have people assembling things on assembly lines in as little as 3 to 5 years in many cases. We're not going to have people doing a lot of the jobs that can be done effectively by AI. It just makes no
+
+    
+    53:04
+    economic sense and it won't happen. So, we're going to have to rethink. And there's two ways you can rethink this. I think that people have talked about either AI will create enough new jobs and enough new things we can do that we'll have different employment or economically we'll figure out how we have more leisure time and how we split the dollars that are generated among us more fairly or the third one is somebody will just take over will be surfs and somebody will be a ruler I don't like door number three but one of those three
+
+    
+    53:36
+    scenarios is going to happen and the issue is how can we deal with that? I wrote this piece that we'll publish on mapel.org and it came back to that whole idea when we first started talking about this guys. We talked about you're not going to be replaced by AI. You're going to be replaced by somebody who can use AI better than you can. And I think nationally that that has the same meaning. Our economy is going to be run by AI and we're either going to be the people who run it better than anybody
+
+    
+    54:07
+    else or we're going to suffer for that. John, I just love to hear your thoughts on this because if you have an open an open system or open source, whatever you want to call it, if you're freely sharing the system and somebody can look at it as an entrepreneur and say, "Wait a minute. I've got this core system, John. You've got a need. I could meet that need. I could do this little piece of it and I could add that on and make your business more successful. And by the way, you could run that piece in
+
+    
+    54:36
+    your own on your own service. Nobody could touch. The limits of your imagination are all that limit you. And I have been saying this for years and I hope it's I hope it's my quote if I ever die and somebody puts it on my tombstone which is he's the guy who said we're not limited by technology. We're limited by our imagination. The idea of this being not just a collaborative project that is for not forprofits or for governments or for others, the idea of the commercial aspects of this. What would you think
+
+    
+    55:04
+    about that as somebody who's in business? This goes back to some of the things that I was talking about earlier that the reliance on a tool that and I'll pick on Microsoft that we're running into right now. the reliance on a tool like Copilot where something Microsoft has done has caused it to be flaky at best for the last week where a large number of our staff can't even access the chat in Copilot. You can't rely on those types of things to be able to run your business. So having your own open-sourced version where you can
+
+    
+    55:41
+    either run it on a server that's in your own physical facility that you control, you manage, and where you don't have to worry about somebody's going to run an update overnight is huge because that gives you the reliability that you know that you know when you're open for business at 9:00 a.m. the next morning that your customers are going to be able to use the chat. They're going to be able to do their searches, they're going to be able to place their orders and all the rest of it because your AI tool will
+
+    
+    56:14
+    still be up and functional. I just want to throw one other thing out there, which is the idea of building something that is vetted by, and again, we're talking about a collaborative group here as opposed to a company or anything like this. It's the way that we're envisioning this thing right off the bat. The idea then is that the base of the tool that you might use in your business is something that you can vet against against a national organization. I see a future personally where we will have the large systems hosted somewhere
+
+    
+    56:49
+    whether it's hosted by whatever the Maple Institute might turn out to be a few years from now assuming that you know this takes off but as a base for what other people might then want to use. In other words, there'd be something that you can reference as the starting point that you can trust, that you can work with because it is a national collaborative effort and then whatever you happen to run locally in your data center. Because let's face it, I think the only way that we're ever going to have something that is going to
+
+    
+    57:18
+    be suitable for most businesses and for organizations where where privacy and data sovereignty, if you will. And by sovereignty in this case, I don't just mean in the country, but inside a company is going to require that we have local smaller local models. And I envision a future where even homes have their own their own sovereign model, so to speak, where the parents do this. So there we go. So you said it, I think, best, Marcelo, which is this is an idea. This is something that can happen. And I
+
+    
+    57:49
+    there's an old saying that has been attributed to Albert Einstein that the best way to control the future is to invent it. He never said it by the way but that's he never said a lot of things but actually the best I'm sure Mark Twain said it the best track on that is a Nobel laureate Dennis Gabbor he wrote it in ' 63 and he at the very beginning of the computer revolution he said the future cannot be predicted but futures can be invented so the invitation to everybody who's listening out there is
+
+    
+    58:16
+    come and help us invent this and we'd love to have you participate you can find it at maple.org or and that's m a ple.org maple.org. Come in. Take a look at the manifesto. Sign it. Add comments to it. Help us develop this thing, this idea. You tell your friends, tell other people. We're not looking to control this. We're looking to collaborate towards a new future. Chat on our Discord. I think that's the show. Thank you very much. Thank Marcel G talking about getting rid of me. Yes. and we will be with you back with the tech news
+
+    
+    58:54
+    on Monday morning. But for this program, we're over live long and prosper. Live long and prosper. Hi, it's Jim. If you've listened this long, I'm assuming that you are at least interested in the ideas that we were talking about. And if you support the idea of a Canadian AI, why not go to maple.org/manifesto and show your support? That's maple m ai ple.org/manifesto. There's a space there for you to add your name, show your support, but also to add your thoughts. Maybe it's a dream, but it's a dream that we could build
+
+    
+    59:38
+    together. Thanks, and have a great weekend. [Music]
+
+    

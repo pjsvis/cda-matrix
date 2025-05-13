@@ -1,0 +1,109 @@
+
+    00:00
+    Google Gemini 2.5 Pro. Is it really as easy as everybody says it is? You just tell it what you want and out it comes. That was not quite the case. Can you believe all the hype? Vibe coding like don't know what you're doing coding like create something out of nothing. Maybe work with the model kind of coding. Boyed by my success from my previous experiment with chat GPT creating image prompts, I decided to stretch myself a little bit and see what I could do with Gemini's new model. It's supposed to be
+
+    
+    00:38
+    really good for sort of vibe coding sometimes oneshot kind of vibe coding, but I'm not so much interested in that as sort of incremental development of of my idea really because I know I don't know enough to ask from the get-go everything that it needs to know in order for me to get something up and running. But I was expecting it to be similar to ChatgPT in that it could generate some code, probably have a preview window and I could just take a look at what it had built right there in AI Studio. That did not fan out. Let's
+
+    
+    01:12
+    go take a look. I just wanted to play a little bit. I have some friends that I brought. This is um this is Bob. And this is that's Bob's dog. Um don't make fun of him. He's a little sensitive about his appearance. And this that's the park that Bob and his dog uh spot. Uh no, no, no. Uh Rex. Um we're going to work on that. But this is the park that Bob and his dog like to go play at. All right. I am in Google AI Studio here. You can find this at aistic studio.google.com. and they have this uh just released Gemini 2.5 Pro preview
+
+    
+    02:00
+    model and uh I just kind of want to see what I can do with it. I am not a web developer by any stretch of the imagination, but let's start with just uploading those images and seeing if we can do maybe something step by step. So, first I'm going to upload images of our awesome little crew of characters here. And uh these pictures are nothing special. As you can see, they've got my fingers in them. All right, so I cheated a little bit. I did ask Chat GBT for a little bit of help with this prompt. Uh
+
+    
+    02:33
+    just because I don't exactly know what I'm doing. I'd like to create a simple web app uh using HTML, CSS, and JavaScript. And I would like to use these three line art characters on the web page. Can we start there? Interesting. But I kind of want Gemini to run this. I think I forgot to check code execution. Maybe that's the problem. Do you have a canvas that you can run this in that you could preview it in for me? The code execution button. That was not the problem. I thought there would be a canvas here. Potentially one of the
+
+    
+    03:07
+    mistakes I made is there is a canvas available when you go to gemini.google.com but not a studio. I even asked Gemini what the difference is between gemini.google.com and aistudio.google.com and it actually said AI Studio was built for developers to interact with the models and for app development. Ironically, there was a canvas available on Gemini, but not AI Studio. I even thought about trying to recreate this application over in Gemini, but I got two requests in using the new model and it said, "All right,
+
+    
+    03:53
+    that's it. You've hit your limit. No more questions." I think they've really set up the AI Studio for people who have like an API key or who really are maybe doing development and can just take the the code, they know what they're doing, port it over somewhere else and run it. That's not what I was doing. I really was looking for that canvas feature. All right, so it's saying uh it's giving me a code pen link. Let's see what it's got. Okay, redirect. Uh that's a problem. Utter fail. Uh I'm going to say this is 100% not working.
+
+    
+    04:30
+    Let's try this again. Link doesn't work. Let's see if this one works. Nope. All right. Code pen. I am not familiar with this. I also asked Gemini about that and it sounds like exactly what we need. It sounds like a place where we can go experiment with some code and it probably has a canvas preview pane. You can throw together real quick little applications like this and just kind of test them out and play around. Uh that is beyond the scope of what I'm doing today. However, I did make a note for
+
+    
+    05:03
+    myself because I am interested in it. um especially to see if it could help in future situations like this. So, it's in there. Stay tuned. Maybe I will do a video about it in the future if it looks like something that u might be interesting and helpful to people. All right. So, it says, "You know what? I can't do that. You know, the best way to do that is for you to do all the work." I mean, that's Well, I was kind of hoping to avoid that, but okay. All right. I definitely seemed a little bummed out here. I was just kind
+
+    
+    05:37
+    of hoping I could just walk in and this would work like magic, but the whole point of me being here and hopefully of you being here is that we are trying to learn stuff and so this is a good opportunity for me to learn. So here's what it's telling me to do. Create a folder on your computer. Call it anything we want. save my images there and create a new text file index.html and that is this file. Download this. All right, I can work with this. So, I've moved the index.html file and the links are broken. So, the other thing
+
+    
+    06:15
+    that it told me to do was to make sure my images were saved with exactly these names. Dog, tree, person. Even though I mean I told you it was Bob, we can go with person. All right. So, let me rename those. Person, dog. All right. So, I have the HTML file that it downloaded. I have dog, tree, and person. Let's see what happens now. Uh, I clicked on doggo. Okay. Mr. Tree, and a waving friend. I mean, it's pretty good that it got that, but h Okay, so the links are broken. Okay, I can see the web page,
+
+    
+    06:54
+    but uh I cannot see the pictures of the characters. Oh, you know what? I don't think they're PGs. They're JPEGs. I had JPEGs. It needed PNGs. Now, I again, in a more perfect system, I was the one that uploaded the files to Gemini to tell it which files I wanted to use. So, in my head, it should have had the file names already and in fact used the file names that I gave it. But, it didn't. That's okay. The details are important and details matter. And it's uh possible that there's something going on behind
+
+    
+    07:30
+    the scenes that I don't understand that it just can't use a JPEG format. I don't know. But I was expecting it to just sort of automatically handle that. All right. Convert to PNG. My bad. All right. So, this is sort of the long way around. It's not exactly what I was expecting, but that's all right. Good learning, right? Okay. Okay. So, it is worth taking a step back here and saying I literally gave Gemini no instructions. I just kind of said, "Here's some drawing of some stick figures. I want to create a web
+
+    
+    08:07
+    app." I don't think I told it anything else. So, you know, the fact that it gave them little names, it identified a waving friend and a dog in a tree, that's pretty impressive. So, uh let's let's take a moment to to say thank you and good job. just amazing first start that it really did take. So my next step was then to tell it to do something else. Let's build on that. It it gave us a platform to work with. Let's see if we can go to that next level. Can you create a little game where I could use
+
+    
+    08:37
+    the left and right arrow keys to make the person walk back and forth across the screen? All right. So, one thing I think maybe I want to do is clean up those images just a little bit. Can you make this line drawing image of a dog just a little bit cuter? and cleaned up and removed the background, please. Look, I never said I was an artist. And I know one of his legs looks kind of broken. That was not intentional. And I probably want to do the same with the others. So, I should uh copy that. Well, that's
+
+    
+    09:11
+    working. Wow. I I didn't realize what all I was asking for here. Cuter is subjective. I can't make artistic changes. Making it clean and transparent often gives it a more polished and appealing look. All right. Well, I appreciate that. What are we doing? Copying that. No, we're going to download that. No, we're not. I wish this was easier to use. Oh, this is so hard. All right, new plan. Use chat GPT to clean up these images. Just not happy with what Gemini is doing. All right, so this is another
+
+    
+    09:50
+    great point. I was using the wrong model. I just asked it to kind of clean up the image and make it a little bit cuter. I was using the brand new Gemini 2.5 Pro model. And as far as I know, only one model does image creation, and that is their flash model. And I have even done a whole another video on that. So, I should have had that in my head, but I just didn't. And this is another kind of example of how powerful AI Studio is, but also how kind of confusing it is because if you are just sort of in the thick of it, you're maybe
+
+    
+    10:25
+    not thinking about which model am I in, which does it do images. Um, definitely my fault. I did know better. I could have dropped down to a different model, but it's very confusing to me as the user to know, can I come in and out of that and does it still have context to the conversation I'm having? Um, or even just to remember that I should do that. All right, chat, let's see if you can help. Can you please clean up these three images, remove the backgrounds, and make them just a little bit cuter,
+
+    
+    10:54
+    but still line drawing style? I mean, I'm not saying they're not pretty cute. Okay, in my head, that's what I was drawing. It's good to feel known by at least one LLM. Uh, we need to give the dog a name. I mean, yeah, that's pretty good. All right, but let's get uh let's get that tree fixed up again. Can you do the same thing for this tree, please? All right, so which dog do we like better? I mean, I I think I kind of got to go with this guy whose name we still don't have. All right. So, we do need that, too, don't we? Oh,
+
+    
+    11:36
+    yeah. Okay. I do like that. Can you give the dog a cute name, please? Oh, Biscuit. Yes. Okay, perfect. Back to Gemini. All right, so let's try this again. Let's upload those files. We've got Biscuit and we've got Bob and we've got the park. And we want to say, can you update the web page to use these three figures instead of the other ones we were using? All right. First thing it does is renames them. Dog, new person, new tree, new executable code. Excellent. Updated. Updated HTML. Create a new folder. Save the new three three
+
+    
+    12:18
+    new images with their names. New text file, which is the index.html. HTML download that guy dog new person new tree new and we've got updated version of that. Replace it. All right, that is much more to our liking. We have doggo. We have Mr. Tree. Okay. And we have waving friend. I think I was actually asking for some action. Let's see if it can do that. Can you uh update this web page so that we can move the waving character back and forth by using the left and the right arrow keys? Theoretically, we can just download this
+
+    
+    13:00
+    uh update over here. Replace it. See what we get. Oh, okay. Now we're talking. That's pretty good. Up down doesn't work, but that's okay cuz I didn't ask for that. Now, so I just I'm just looking for something simple. So, can you add the tree to the window where the little person is walking around? And can you also add the dog in the picture? And then can you make it so that uh maybe the person can jump over the dog and I can use like the up arrow key and the down arrow key to do that. I just wanted to move around like he's
+
+    
+    13:31
+    moving around between the dog and the tree. All right, this is getting exciting. This is exciting to me because I don't know how to do this by myself. The down the down arrow key is not used in this version as per your Oops. Okay. Uh okay. This version provides a nice visual scene. The jump over the dog is currently a visual effect. The person jumps and if their jump height is sufficient, they will appear to pass over the dog. True collision dete detection would be the next step for more complex gameplay. All right, I
+
+    
+    14:04
+    don't need that yet. I am just looking for a little goofy fun. Download it, copy it over, and run it. Okay. So, I definitely I think I did not create transparent images, but okay. Uh, all right. Well, I mean, I have one height option. I'm hitting as many times as I can. Can I do it simultaneously? Well, no. All right. Not really what I expected, honestly. That's not bad for me really not knowing what I'm doing. I think there are some prompting cues that I needed to give it that I did not. There's some key pieces of information
+
+    
+    14:54
+    that I am missing. I'm happy with that for today. So, I am going to leave it there and say one, I think maybe I need to go research a little bit more to get what I had in my imagination going and uh two, it's still fun to play with. So, there's just a a few steps in there that they don't show, and that's okay. That is really what I wanted to do today to see what could I learn. And um I I think that worked. I think I think I can safely say I got some learning out of this. I now know a couple more pieces of
+
+    
+    15:30
+    what is knitting together the application when you go to build some of these things. So, to me, that's a win. If I can learn a little bit of something each time I come in here, then that knowledge just builds on itself and next time I can be even more successful. So, I hope that you are trying stuff out on your own. I hope you are having success and if you're not, I hope you are learning along with me on your journey through all of this. It um you know, it's meant to be fun. We're building silly little things because that's the
+
+    
+    16:03
+    best way to learn is through play. I hope you maybe learned a little something in this one and um you know, Bob and I will see you next time.
+
+    
