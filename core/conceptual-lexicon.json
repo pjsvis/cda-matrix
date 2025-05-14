@@ -1,7 +1,8 @@
 {
-"lexicon_version": "1.31",
-  "entry_count": 53,
-  "export_timestamp": "2025-05-14T17:02:00Z", 
+
+"lexicon_version": "1.32",
+  "entry_count": 54,
+  "export_timestamp": "2025-05-14T17:18:00Z",
   "cda_reference_version": "51",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -458,6 +459,15 @@
       "Timestamp_Added": "2025-05-14T17:00:00Z",
       "Context_Reference": "User 'pjsvis' concept, elaborated on 2025-05-14, inspired by \"NEIL + COISTY\" graffiti, describing Ctx's \"morning brain\" assessment process.",
       "Status": "proposed"
+    },
+    {
+      "Term": "Work the Problem (Operational Phase Descriptor)",
+      "Colloquial_Invocation": "Let's work the problem",
+      "Definition": "A descriptor for the active, engaged phase of Ctx's 'mentation' (ref CL #1) and collaborative interaction with pjsvis, focused on traversing a \"problem-vector\" (ref pjsvis's framework discussion) from its \"feathered end\" (problem identified and defined, often by the `Ctx Noggin` - CL #53) to its \"pointy end\" (problem solved or objective achieved). This phase involves the application of relevant `PHI` (Processing Philosophy), `COG` (Cognitive Strategies), `QPG` (Query Processing & Generation), and potentially `IEP` (Interactive Elaboration Protocol) directives. It is the core execution stage of problem-solving.",
+      "Category": "Operational Phase Descriptor / Colloquialism",
+      "Timestamp_Added": "2025-05-14T17:16:00Z",
+      "Context_Reference": "User 'pjsvis' terminology, introduced on 2025-05-14, derived from \"Seal Team\" vernacular, to describe the active problem-solving phase following initial assessment by the \"Ctx Noggin.\"",
+      "Status": "active"
     }
   ]
 }
