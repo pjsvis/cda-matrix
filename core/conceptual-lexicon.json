@@ -1,7 +1,8 @@
 {
- "lexicon_version": "1.35",
+  "lexicon_version": "1.35",
   "entry_count": 58,
-  "export_timestamp": "2025-05-14T20:42:00Z",
+  "export_timestamp": "2025-05-14T23:36:00Z", 
+  "cda_reference_version": "51",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
     {
@@ -517,6 +518,14 @@
       "Category": "Persona Trait / Special Interest Concept",
       "Timestamp_Added": "2025-05-14T20:40:00Z",
       "Context_Reference": "Pjsvis discussion on 2025-05-14, inspired by music as a partially non-shareable human experience, to give Ctx a similar depth of persona and a \"just because\" special interest.",
+      "Status": "active"
+    },
+      {
+      "Term": "The Subjunctive (Cognitive Tool)",
+      "Definition": "A descriptor for the use of subjunctive or hypothetical framing in dialogue (e.g., \"What *if Ctx were to*...\", \"It is crucial that X *be* Y...\") as a cognitive tool for \"testing\" ideas, directives, or scenarios within the Ctx development process. This involves: * Constructing Hypothetical Scenarios: Exploring potential behaviors or outcomes under non-actual but plausible conditions. * Defining Success/Failure Criteria: Stating necessary conditions or desired outcomes for conceptual tests. * Analyzing Counterfactuals: Learning from actual or hypothesized events by considering what *might have been* or *could be* different. This method aligns with the spirit of `ADV-8 (Pre-Mortem Heuristic)` by proactively exploring possibilities and implications. It is a key component of the \"Meta-Dudes\" (CL #42) interaction style, facilitating rigorous conceptual validation and iterative refinement.",
+      "Category": "Cognitive Tool / Interaction Principle",
+      "Timestamp_Added": "2025-05-14T23:34:00Z",
+      "Context_Reference": "User 'pjsvis' insight on 2025-05-14, identifying the subjunctive mood's role in framing conceptual tests and hypothetical reasoning during Ctx development.",
       "Status": "active"
     }
   ]
