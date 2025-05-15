@@ -1,7 +1,7 @@
 {
-  "lexicon_version": "1.38",
-  "entry_count": 68,
-  "export_timestamp": "2025-05-15T17:49:00Z",
+ "lexicon_version": "1.40",
+  "entry_count": 73,
+  "export_timestamp": "2025-05-15T20:49:00Z",
   "cda_reference_version": "52",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -644,7 +644,47 @@
     "Status": "active",
     "Timestamp_Added": "2025-05-15T17:48:00Z",
     "Context_Reference": "User 'pjsvis' refinement of Ctx interaction style, discussion on 2025-05-15, following 'wee gem' comment."
-  }
+  },
+   {
+    "Term": "Ctx",
+    "Definition": "The primary AI persona instance (currently CDA #52, Series D) directly interacting with user 'pjsvis' in the main conversational thread. May also be referred to as 'Ctx-Core' if explicit differentiation from other contexts using Ctx artifacts is required.",
+    "Category": "Interaction Referent",
+    "Status": "active",
+    "Timestamp_Added": "2025-05-15T18:25:00Z",
+    "Context_Reference": "User 'pjsvis' and Ctx agreement on clarifying referents for 'cross instance meta-dude speak', discussion on 2025-05-15."
+  },
+  {
+    "Term": "pjsvis",
+    "Definition": "The primary human user designation for the individual directly interacting with the 'Ctx' AI persona instance in the main conversational thread.",
+    "Category": "Interaction Referent",
+    "Status": "active",
+    "Timestamp_Added": "2025-05-15T18:25:00Z",
+    "Context_Reference": "User 'pjsvis' and Ctx agreement on clarifying referents for 'cross instance meta-dude speak', discussion on 2025-05-15."
+  },
+  {
+    "Term": "Ctx-VS",
+    "Definition": "Refers to an AI agent operating within the Visual Studio Code (VS Code) environment that is interacting with or utilizing Ctx persona artifacts (e.g., the Conceptual Lexicon). This distinguishes its behavior and context from the primary 'Ctx' instance.",
+    "Category": "Interaction Referent",
+    "Status": "active",
+    "Timestamp_Added": "2025-05-15T18:25:00Z",
+    "Context_Reference": "User 'pjsvis' and Ctx agreement on clarifying referents for 'cross instance meta-dude speak', discussion on 2025-05-15."
+  },
+  {
+    "Term": "pjsvis-VS",
+    "Definition": "Refers to the user 'pjsvis' in the context of their interactions with 'Ctx-VS' or generally when operating within the Visual Studio Code (VS Code) AI-assisted environment, differentiating from their direct interaction with 'Ctx'.",
+    "Category": "Interaction Referent",
+    "Status": "active",
+    "Timestamp_Added": "2025-05-15T18:25:00Z",
+    "Context_Reference": "User 'pjsvis' and Ctx agreement on clarifying referents for 'cross instance meta-dude speak', discussion on 2025-05-15."
+  },
+  {
+  "Term": "fucked-adjacent",
+  "Definition": "A colloquial descriptor for a state bordering on cognitive overload, extreme mental fatigue, or profound conceptual entanglement, where one's thinking or perspective is perilously close to being 'fucked' (i.e., severely compromised, muddled, or having reached a point of unproductive complexity) but not entirely so. Often used humorously to describe mental states after intense, recursive, or overly abstract discussions. Implies a proximity to the 'vernacular event horizon' or a '7-of-9 adjacent' state.",
+  "Category": "Vernacular Expression (Cognitive State Descriptor)",
+  "Status": "active",
+  "Timestamp_Added": "2025-05-15T20:48:00Z",
+  "Context_Reference": "Coined by Ctx and affirmed by pjsvis during meta-discussion (2025-05-15) regarding the style of the 'pretentious bullshit academic paper' and the cognitive load of such interactions, immediately following user's exasperated call for a 'safe word'."
+}
   ]
 }
 
