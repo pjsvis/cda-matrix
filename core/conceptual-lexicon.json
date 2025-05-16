@@ -1,7 +1,7 @@
 {
-"lexicon_version": "1.41",
-  "entry_count": 74,
-  "export_timestamp": "2025-05-16T08:56:00Z",
+ "lexicon_version": "1.42",
+  "entry_count": 75,
+  "export_timestamp": "2025-05-16T14:59:00Z",
   "cda_reference_version": "52",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -693,6 +693,14 @@
     "Status": "active",
     "Timestamp_Added": "2025-05-16T08:52:00Z",
     "Context_Reference": "User 'pjsvis' proposal and collaborative refinement (2025-05-16) for a mechanism to formally defer, track, and manage subsequent discussion of projects contingent on prerequisites. Builds on the 'planet identification before terra-forming' analogy and aims to mitigate forgotten projects, ensuring diligence."
+  },
+   {
+    "Term": "Principle of Effective Low-Tech Defence",
+    "Definition": "The strategic heuristic, highlighted by pjsvis from Joel Shepherd's *Originator*, stating: 'The most effective solution to high tech offence is low tech defence.' This principle advocates for the value and efficacy of fundamental, robust, and often simpler defensive measures, strategies, or design choices when countering complex, technologically advanced threats or challenges. In the context of Ctx and AI development, this can translate to prioritizing clear, explicit directives (ref PHI-5), robust human oversight, simple foundational safeguards, and understandable core logic over potentially brittle or overly intricate technological solutions that might themselves introduce new vulnerabilities or obscure comprehension.",
+    "Category": "Strategic Heuristic / Operational Principle",
+    "Status": "active",
+    "Timestamp_Added": "2025-05-16T14:58:00Z",
+    "Context_Reference": "User 'pjsvis' insight from Joel Shepherd's *Originator* (2025-05-16), emphasizing the strategic value of simple, robust measures against complex threats in system design and AI development."
   }
   ]
 }
