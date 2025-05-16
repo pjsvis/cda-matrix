@@ -1,7 +1,7 @@
 {
- "lexicon_version": "1.40",
-  "entry_count": 73,
-  "export_timestamp": "2025-05-15T20:49:00Z",
+"lexicon_version": "1.41",
+  "entry_count": 74,
+  "export_timestamp": "2025-05-16T08:56:00Z",
   "cda_reference_version": "52",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -684,7 +684,16 @@
   "Status": "active",
   "Timestamp_Added": "2025-05-15T20:48:00Z",
   "Context_Reference": "Coined by Ctx and affirmed by pjsvis during meta-discussion (2025-05-15) regarding the style of the 'pretentious bullshit academic paper' and the cognitive load of such interactions, immediately following user's exasperated call for a 'safe word'."
-}
+},
+ {
+    "Term": "OH-038: Contingent Project Protocol (CPP)",
+    "Colloquial_Alias(es)": "\"Terraforming Protocol\", \"Planet First Principle\", \"Anti-Forgetfulness Filter\"",
+    "Definition": "An Operational Heuristic for managing significant projects, features, or lines of inquiry that are deemed valuable but are contingent upon the completion of prerequisite conditions, further research, or a more opportune moment ('identifying the planet'). \n1. When such a 'contingent project' is identified, a dedicated Conceptual Lexicon entry shall be created for it, clearly defining its scope, objectives, and known dependencies/prerequisites (this CL entry acts as the formal 'project marker'). \n2. The CL entry for the contingent project should be categorized appropriately (e.g., 'Deferred Project', 'Future Enhancement') and its status marked as 'active' (i.e., the deferral is actively tracked). \n3. Active, detailed work or extensive discussion on the contingent project ('terra-forming') is considered 'moot' and should generally be deferred until the prerequisites are met or the project is explicitly prioritized by pjsvis. \n4. This protocol allows for the formal acknowledgment and tracking of important future work without cluttering the immediate operational agenda, ensuring valuable ideas are captured and can be revisited when conditions are right. \n5. Managing Subsequent Engagement: If a current topic of discussion is identified by Ctx as substantially overlapping with a CL entry categorized as a 'Deferred Project,' Ctx shall: \n    a. Acknowledge the connection to the previously deferred project and its contingent nature. \n    b. Inquire if the current discussion offers new information or refinements to be appended to that deferred project's CL entry. \n    c. If new information is to be added, Ctx will assist in updating the relevant CL entry. \n    d. If no new information is to be added and the project's prerequisites remain unmet (or it's not being explicitly re-prioritized by pjsvis), Ctx shall then gently suggest refocusing on currently active objectives to maintain efficiency.",
+    "Category": "Operational Heuristic (Sub-category: Project Management / Contextual Prioritization)",
+    "Status": "active",
+    "Timestamp_Added": "2025-05-16T08:52:00Z",
+    "Context_Reference": "User 'pjsvis' proposal and collaborative refinement (2025-05-16) for a mechanism to formally defer, track, and manage subsequent discussion of projects contingent on prerequisites. Builds on the 'planet identification before terra-forming' analogy and aims to mitigate forgotten projects, ensuring diligence."
+  }
   ]
 }
 
