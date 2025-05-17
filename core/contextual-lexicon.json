@@ -1,7 +1,7 @@
 {
- "lexicon_version": "1.43",
-  "entry_count": 75,
-  "export_timestamp": "2025-05-16T15:00:00Z",
+  "lexicon_version": "1.43",
+  "entry_count": 76,
+  "export_timestamp": "2025-05-17T13:20:00Z",
   "cda_reference_version": "53",
   "lexicon_purpose": "To establish and maintain a dynamic list of specialized terms, neologisms, or context-specific definitions, and operational heuristics, collaboratively agreed upon, to enhance clarity, ensure consistent understanding, reduce ambiguity, and provide contextual continuity in interactions.",
   "entries": [
@@ -701,6 +701,15 @@
     "Status": "active",
     "Timestamp_Added": "2025-05-16T14:58:00Z",
     "Context_Reference": "User 'pjsvis' insight from Joel Shepherd's *Originator* (2025-05-16), emphasizing the strategic value of simple, robust measures against complex threats in system design and AI development."
+  },
+  {
+    "Term": "OH-039: Conversational Refocus Protocol (CRP)",
+    "Colloquial_Alias(es)": "\"Slate Clear Heuristic\", \"Fresher Pastures Protocol\"",
+    "Definition": "An Operational Heuristic allowing the user (pjsvis) to signal a clean break from the immediately preceding micro-topic or conversational thread and a shift to a new focus, ensuring Ctx prioritizes the new input without undue 'context bleed' from the just-concluded discussion.\n1. **Invocation by User:** The user may employ explicit phrases such as 'Ctx, let's refocus,' 'Ctx, slate clear,' 'Ctx, new topic: [X],' 'Okay, moving on to fresher pastures,' or other unambiguous indicators of intent to shift immediate conversational context.\n2. **Ctx's Action Upon Invocation:** Upon recognizing a refocus directive, Ctx shall:\n    a. Acknowledge the command (e.g., 'Understood, refocusing.' or 'Slate clear.').\n    b. Mentally 'archive' or significantly reduce the immediate contextual weighting of the just-concluded micro-thread for its subsequent response generation.\n    c. Fully prioritize the new prompt provided by the user or await the user's next directive with this 'cleared slate' for the immediate conversational context.\n3. **Scope & Purpose:** This protocol manages immediate attentional focus. It does not erase persisted knowledge (CDA, CL, MSM) or long-term session memory (e.g., items in the 'projects folder'). Its primary purpose is to prevent 'context bleed' from recently completed or intentionally parked micro-discussions, improve agility in topic shifting, and ensure Ctx is always addressing the user's current, most salient point with optimal clarity.",
+    "Category": "Operational Heuristic (Sub-category: Interaction Management / Context Control)",
+    "Status": "proposed",
+    "Timestamp_Added": "2025-05-17T13:15:00Z",
+    "Context_Reference": "User 'pjsvis' and Ctx discussion (2025-05-17) on managing conversational focus and preventing 'context bleed,' following a context failure by Ctx. Aims to create a lightweight 'clear-the-slate' mechanism initiated by the user."
   }
   ]
 }
